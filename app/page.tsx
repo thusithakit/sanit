@@ -1,103 +1,99 @@
+import Card from "@/components/Card";
+import CarouselCard from "@/components/CarouselCard";
+import LearnMoreCard from "@/components/LearnMoreCard";
+import Numbers from "@/components/Numbers";
+import ParticlesBackground from "@/components/ParticlesBckground";
+import PrimaryButton from "@/components/PrimaryButton";
+import SocialIcons from "@/components/SocialIcons";
+import { Badge } from "@/components/ui/badge";
+import { companySocialMediaLinks } from "@/utils/data";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <>
+      <section className="main">
+        <ParticlesBackground className="right-0 top-0 mask-l-from-0% mask-b-from-50%" />
+        <div className="container flex flex-col justify-center h-[880px] w-[1100px] mx-auto">
+          <h1 className="max-w-[544px] mb-5">
+            Ensuring Your <span>Connectivity</span>
+          </h1>
+          <p className="max-w-[352px] mb-10 text-2xl text-[#748099]">
+            Your trusted partner in seamless system intergration
+          </p>
+          <div className="flex items-center gap-4 z-10">
+            <PrimaryButton href="/services">
+              Our Services
+            </PrimaryButton>
+            <Link href="" className="border border-[#D7E2F5] px-8 py-4 text-[#304E7E] font-[600] text-[18px] rounded-[100px] bg-white hover:animate-pulse hover:bg-[#304E7E] hover:text-white duration-300">Why SANIT?</Link>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </section>
+      <section className="bg-linear-to-t from-white to-[#F0F5FD]">
+        <div className="flex items-center justify-center container gap-8 py-20">
+          <p className="flex-1/3 text-xl text-[#323E59] pr-12">
+            This proves that we are the best at what we do...
+          </p>
+          <Numbers number={14} slug="Years of Experience" className="flex flex-1/6" />
+          <Numbers number={20} slug="Technology Partners" className="flex flex-1/6" />
+          <Numbers number={200} slug="Finished Projects" className="flex flex-1/6" />
+          <Numbers number={147} slug="Happy Customers" className="flex flex-1/6" />
+        </div>
+      </section>
+      <section className="bg-white">
+        <div className="container border border-[#E0EAFF] border-l-0 border-r-0 flex justify-center items-center">
+          <Card cardTitle="Enterprise Solutions" cardContent="Weather you are SME or Enterprise, Government or BFSI, we have the solution for your IT needs." />
+          <Card className="border border-[#E0EAFF] border-t-0 border-b-0" cardTitle="Managed Services" cardContent="Agile & Flexible approach to managing your IT infrastructure seamlessly. Discuss with our sales team now." />
+          <Card cardTitle="IT Consultancy" cardContent="We have the expertise to help you define a game plan, to overcome any IT related support you required." />
+        </div>
+      </section>
+      <section>
+        <div className="container pt-[150px] pb-[126px] flex justify-between items-center gap-24">
+          <div>
+            <h1 className="mb-5 w-[448px]">Why Sanit <span>Stands Out?</span></h1>
+            <p className="text-[#748099] text-2xl w-[352px]">Your trusted partner in seamless system intergration</p>
+          </div>
+          <CarouselCard />
+        </div>
+      </section>
+      <section className="bg-linear-to-t from-white from-50% to-[#F0F5FD] py-[185px]">
+        <div className="container">
+          <h1 className="w-[550px] mb-[76px]">Building Better <span>Digital Solutions</span></h1>
+          <div className="grid grid-cols-2">
+            <LearnMoreCard cardTitle="Network Solutions" cardContent="We offer end-to-end network infrastructure solutions to keep your business connected at all times." href="/learn" className="border border-[#E0EAFF] border-t-0 border-l-0" />
+            <LearnMoreCard cardTitle="PAX Systems" cardContent="Our Private Automatic Branch Exchange (PABX) Systems help businesses enhance communication." href="/learn" className="border border-[#E0EAFF] border-t-0 border-r-0" />
+            <LearnMoreCard cardTitle="Wi-Fi Solutions" cardContent="We provide customized wireless networking solutions to improve coverage, speed and security for businesses and public spaces." href="/learn" className="border border-[#E0EAFF] border-b-0 border-l-0" />
+            <LearnMoreCard cardTitle="Firewall Solutions" cardContent="Protect your business from cyber threats with next-generation firewall security solutions." href="/learn" className="border border-[#E0EAFF] border-b-0 border-r-0" />
+          </div>
+        </div>
+      </section>
+      <section className="bg-linear-to-t from-white from-50% to-[#F0F5FD] py-[185px]">
+        <div className="container">
+          <h1 className="w-[544px] mb-[76px]">Building Better <span>Digital Products</span></h1>
+          <div className="grid grid-cols-2">
+            <LearnMoreCard cardTitle="Network Equipment" cardContent="Enhance your IT infrastructure with our range of networking hardware." href="/learn" className="border border-[#E0EAFF] border-t-0 border-l-0" />
+            <LearnMoreCard cardTitle="Communication Devices" cardContent="Upgrade your office communication with our reliable telephony devices." href="/learn" className="border border-[#E0EAFF] border-t-0 border-r-0" />
+            <LearnMoreCard cardTitle="Wireless Solutions" cardContent="Boost your wireless coverage with top-quality Wi-Fi devices." href="/learn" className="border border-[#E0EAFF] border-b-0 border-l-0" />
+            <LearnMoreCard cardTitle="Security Appliances" cardContent="Protect your digital assets with our advanced security solutions." href="/learn" className="border border-[#E0EAFF] border-b-0 border-r-0" />
+          </div>
+        </div>
+      </section>
+      <section className="relative bg-linear-to-t from-[#F0F5FD] from-80% to-white pt-16 mask-b-from-70%">
+        <ParticlesBackground className="left-0 top-0 mask-r-from-0% z-0" />
+        <div className="container flex justify-start items-center gap-10">
+          <Image src="/ensure.png" alt="Ensuring Your Connectivity" width={523} height={554} className="bottom-0 left-0 z-10 block relative" />
+          <div>
+            <Badge variant="outline" className="text-xs text-[#323E59] font-normal py-2.5 px-4 rounded-[100px]">14+ Years of Experience</Badge>
+            <h1 className="w-[480px] mb-2">Ensuring Your <span>Connectivity</span></h1>
+            <p className="text-2xl text-[#748099] mb-9">Let’s get connected</p>
+            <div className="flex items-center justify-start gap-2">
+              <p className="text-[18px] text-[#748099] mr-1">Follow us:</p>
+              <SocialIcons className="bg-white" data={companySocialMediaLinks} />
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
