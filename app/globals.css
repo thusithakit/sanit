@@ -93,7 +93,7 @@
 
   --popover-foreground: oklch(0.129 0.042 264.695);
 
-  --primary: oklch(0.208 0.042 265.755);
+  --primary: #323E59;
 
   --primary-foreground: oklch(0.984 0.003 247.858);
 
@@ -231,6 +231,12 @@
   header {
     @apply z-50;
   }
+  * {
+    @apply scroll-smooth scroll-pt-[140px] text-[#323E59];
+  }
+  input,textarea {
+    @apply text-[18px] py-4 px-2 border border-[#E5EDFF] border-t-0 border-x-0 rounded-none;
+  }
 }
 
 @layer utilities {
@@ -240,6 +246,9 @@
   }
   .active {
     @apply text-[#0C5ADB] font-semibold;
+  }
+  .inputs {
+    @apply text-[18px] py-4 px-2 border border-[#E5EDFF] border-t-0 border-x-0 rounded-none;
   }
 }
 

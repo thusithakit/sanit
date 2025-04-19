@@ -30,3 +30,24 @@ export type SocailMediaLinks = {
     instagram?: string,
     linkedin?: string
 }
+
+export type BranchDetails = {
+    branchName: string,
+    branchAddress: string,
+    branchPhone?: string,
+    branchEmail?: string,
+    branchMapUrl?: string,
+    branchPhoto?: string
+}
+
+export type TeamMemberDetails = {
+    name: string,
+    position: string,
+    profileImage?: string,
+    contact: SocailMediaLinks
+}
+
+export type ContactFormState = {
+    success: boolean;
+    message: string;
+};

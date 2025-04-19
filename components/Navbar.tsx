@@ -9,8 +9,6 @@ import { useEffect, useState } from "react";
 const Navbar = () => {
     const pathName = usePathname();
     const isActive = (href: string | undefined) => {
-        console.log("pathname", pathName);
-        console.log("href", href);
         if (!href) return false;
         return pathName === href || (href !== "/" && pathName.startsWith(href));
     }

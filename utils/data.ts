@@ -1,4 +1,4 @@
-import { NavItems, ProductPageDetails, ServicePageDetails, SocailMediaLinks } from "./types";
+import { BranchDetails, NavItems, ProductPageDetails, ServicePageDetails, SocailMediaLinks, TeamMemberDetails } from "./types";
 
 export const navLinks: NavItems[] = [
     {
@@ -81,6 +81,7 @@ export const serviceDetails: ServicePageDetails[] = [
         }
     }
 ]
+
 export const productDetails: ProductPageDetails[] = [
     {
         pageUrl: "/network-equipment",
@@ -109,3 +110,73 @@ export const companySocialMediaLinks: SocailMediaLinks = {
     instagram: "/",
     linkedin: "/"
 }
+
+export const branchDetails: BranchDetails[] = [
+    {
+        branchName: "SANIT Inventions Head Office & NOC",
+        branchAddress: "No: 32/2A, Udumulla Road, Battaramulla, Sri Lanka.",
+        branchPhone: "+94 11 2 772 222",
+        branchEmail: "info@sanit.lk",
+        branchMapUrl: "https://maps.app.goo.gl/rcNABrWwciQWJET1A",
+        branchPhoto: ""
+    },
+    {
+        branchName: "SANIT Inventions Kotte Branch",
+        branchAddress: "No: 32/2A, Udumulla Road, Battaramulla, Sri Lanka.",
+        branchPhone: "+94 11 2 772 222",
+        branchEmail: "info@sanit.lk",
+        branchMapUrl: "https://maps.app.goo.gl/rcNABrWwciQWJET1A",
+        branchPhoto: ""
+    },
+    {
+        branchName: "SANIT Inventions Anuradhapura Branch",
+        branchAddress: "No: 32/2A, Udumulla Road, Battaramulla, Sri Lanka.",
+        branchPhone: "+94 11 2 772 222",
+        branchEmail: "info@sanit.lk",
+        branchMapUrl: "https://maps.app.goo.gl/rcNABrWwciQWJET1A",
+        branchPhoto: ""
+    }
+]
+
+export const teamMembersDetails: TeamMemberDetails[] = [
+    {
+        name: "Ethan Carter",
+        position: "Software Engineer",
+        profileImage: "",
+        contact: {
+            facebook: "/",
+            instagram: "/",
+            linkedin: "/"
+        }
+    },
+    {
+        name: "Olivia Mitchell",
+        position: "Product Manager",
+        profileImage: "",
+        contact: {
+            facebook: "/",
+            instagram: "/",
+            linkedin: "/"
+        }
+    },
+    {
+        name: "Emily Lawson",
+        position: "Software Engineer",
+        profileImage: "",
+        contact: {
+            facebook: "/",
+            instagram: "/",
+            linkedin: "/"
+        }
+    },
+    {
+        name: "Ethan James",
+        position: "Business Consultant",
+        profileImage: "",
+        contact: {
+            facebook: "/",
+            instagram: "/",
+            linkedin: "/"
+        }
+    },
+]
