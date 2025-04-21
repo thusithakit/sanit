@@ -9,13 +9,6 @@ export const handleContactFormSubmit = async (prevState: ContactFormState, formD
     const email = formData.get('email');
     const phone = formData.get('phone');
     const message = formData.get('message');
-    console.log('Form Data:', {
-        fName,
-        lName,
-        email,
-        phone,
-        message
-    });
     if (!fName || !lName || !email || !phone || !message) {
         return { success: false, message: "Please fill all the fields!" };
     }

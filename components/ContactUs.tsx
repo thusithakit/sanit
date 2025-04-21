@@ -1,5 +1,7 @@
-import ParticlesBackground from "./ParticlesBckground"
+// import ParticlesBackground from "./ParticlesBckground"
+import dynamic from "next/dynamic";
 import PrimaryButton from "./PrimaryButton"
+const ParticlesBackground = dynamic(() => import('@/components/ParticlesBckground'));
 
 const ContactUs = () => {
     return (

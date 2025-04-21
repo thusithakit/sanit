@@ -2,13 +2,16 @@ import Card from "@/components/Card";
 import CarouselCard from "@/components/CarouselCard";
 import LearnMoreCard from "@/components/LearnMoreCard";
 import Numbers from "@/components/Numbers";
-import ParticlesBackground from "@/components/ParticlesBckground";
+// import ParticlesBackground from "@/components/ParticlesBckground";
 import PrimaryButton from "@/components/PrimaryButton";
 import SocialIcons from "@/components/SocialIcons";
 import { Badge } from "@/components/ui/badge";
 import { companySocialMediaLinks } from "@/utils/data";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
+
+const ParticlesBackground = dynamic(() => import('@/components/ParticlesBckground'));
 
 export default function Home() {
   return (
