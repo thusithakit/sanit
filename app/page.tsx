@@ -1,23 +1,24 @@
 import Card from "@/components/Card";
-import CarouselCard from "@/components/CarouselCard";
-import LearnMoreCard from "@/components/LearnMoreCard";
-import Numbers from "@/components/Numbers";
-// import ParticlesBackground from "@/components/ParticlesBckground";
+import ParticlesClientWrapper from "@/components/client/ParticlesClientWrapper";
 import PrimaryButton from "@/components/PrimaryButton";
-import SocialIcons from "@/components/SocialIcons";
 import { Badge } from "@/components/ui/badge";
 import { companySocialMediaLinks } from "@/utils/data";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
 
-const ParticlesBackground = dynamic(() => import('@/components/ParticlesBckground'));
+const CarouselCard = dynamic(() => import("@/components/CarouselCard"));
+const Numbers = dynamic(() => import("@/components/Numbers"));
+const SocialIcons = dynamic(() => import("@/components/SocialIcons"));
+const DigitalSolutionsSection = dynamic(() => import('@/components/DigitalSolutionsSection'));
+const DigitalProductsSection = dynamic(() => import('@/components/DigitalProductsSection'));
+
 
 export default function Home() {
   return (
     <>
       <section className="main">
-        <ParticlesBackground className="right-0 top-0 mask-l-from-0% mask-b-from-50%" />
+        <ParticlesClientWrapper className="right-0 top-0 mask-l-from-0% mask-b-from-50%" />
         <div className="container flex flex-col justify-center h-[880px] w-[1100px] mx-auto">
           <h1 className="max-w-[544px] mb-5">
             Ensuring Your <span>Connectivity</span>
@@ -60,30 +61,10 @@ export default function Home() {
           <CarouselCard />
         </div>
       </section>
-      <section className="bg-linear-to-t from-white from-50% to-[#F0F5FD] py-[185px]">
-        <div className="container">
-          <h1 className="w-[550px] mb-[76px]">Building Better <span>Digital Solutions</span></h1>
-          <div className="grid grid-cols-2">
-            <LearnMoreCard cardTitle="Network Solutions" cardContent="We offer end-to-end network infrastructure solutions to keep your business connected at all times." href="/learn" className="border border-[#E0EAFF] border-t-0 border-l-0" />
-            <LearnMoreCard cardTitle="PAX Systems" cardContent="Our Private Automatic Branch Exchange (PABX) Systems help businesses enhance communication." href="/learn" className="border border-[#E0EAFF] border-t-0 border-r-0" />
-            <LearnMoreCard cardTitle="Wi-Fi Solutions" cardContent="We provide customized wireless networking solutions to improve coverage, speed and security for businesses and public spaces." href="/learn" className="border border-[#E0EAFF] border-b-0 border-l-0" />
-            <LearnMoreCard cardTitle="Firewall Solutions" cardContent="Protect your business from cyber threats with next-generation firewall security solutions." href="/learn" className="border border-[#E0EAFF] border-b-0 border-r-0" />
-          </div>
-        </div>
-      </section>
-      <section className="bg-linear-to-t from-white from-50% to-[#F0F5FD] py-[185px]">
-        <div className="container">
-          <h1 className="w-[544px] mb-[76px]">Building Better <span>Digital Products</span></h1>
-          <div className="grid grid-cols-2">
-            <LearnMoreCard cardTitle="Network Equipment" cardContent="Enhance your IT infrastructure with our range of networking hardware." href="/learn" className="border border-[#E0EAFF] border-t-0 border-l-0" />
-            <LearnMoreCard cardTitle="Communication Devices" cardContent="Upgrade your office communication with our reliable telephony devices." href="/learn" className="border border-[#E0EAFF] border-t-0 border-r-0" />
-            <LearnMoreCard cardTitle="Wireless Solutions" cardContent="Boost your wireless coverage with top-quality Wi-Fi devices." href="/learn" className="border border-[#E0EAFF] border-b-0 border-l-0" />
-            <LearnMoreCard cardTitle="Security Appliances" cardContent="Protect your digital assets with our advanced security solutions." href="/learn" className="border border-[#E0EAFF] border-b-0 border-r-0" />
-          </div>
-        </div>
-      </section>
+      <DigitalSolutionsSection />
+      <DigitalProductsSection />
       <section className="relative bg-linear-to-t from-[#F0F5FD] from-80% to-white pt-16 mask-b-from-70%">
-        <ParticlesBackground className="left-0 top-0 mask-r-from-0% z-0" />
+        <ParticlesClientWrapper className="left-0 top-0 mask-r-from-0% z-0" />
         <div className="container flex justify-start items-center gap-10">
           <Image src="/ensure.png" alt="Ensuring Your Connectivity" width={523} height={554} className="bottom-0 left-0 z-10 block relative" />
           <div>
