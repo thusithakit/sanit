@@ -25,7 +25,7 @@ const Navbar = () => {
 
     return (
         <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? "bg-white shadow-md" : "bg-transparent"}`}>
-            <div className="container flex justify-between items-center">
+            <div className="container no-border flex justify-between items-center">
                 <Link href="/" className="py-6">
                     <h2>Logo</h2>
                 </Link>

@@ -12,7 +12,7 @@ const LearnMoreCard = ({ cardTitle, cardContent, href, className }: { cardTitle:
         <div
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
-            className={`hover:bg-[#0C5ADB] group ease-in-out duration-300 px-8 pt-24 pb-8 ${className}`}
+            className={`hover:bg-[#0C5ADB] group ease-in-out duration-300 lg:px-8 lg:pt-24 lg:pb-8 px-4 py-6 ${className}`}
         >
             {isHovering ? (
                 <Image src="/learn-more-active.svg" alt="Learn More Active" width={65} height={65} className="mb-6" />

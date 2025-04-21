@@ -221,7 +221,7 @@
 
 @layer base {
   h1 {
-    @apply text-7xl font-normal text-[#92ABD6];
+    @apply text-3xl lg:text-7xl font-normal text-[#92ABD6];
     line-height: 120%; 
   }
   h1 span {
@@ -242,7 +242,10 @@
 @layer utilities {
 
   .container {
-    @apply w-[1120px] mx-auto relative;
+    @apply lg:w-[1120px] mx-auto relative py-10 px-5;
+  }
+  .container.no-border {
+    @apply py-0;
   }
   .active {
     @apply text-[#0C5ADB] font-semibold;
@@ -254,7 +257,7 @@
 
 @layer components {
   .primary-button {
-    @apply w-fit flex relative items-center justify-center py-2 pr-2 pl-8 gap-4 bg-[#F0F5FF] rounded-[100px] font-semibold text-[#304E7E] text-[18px] cursor-pointer hover:bg-[#5793F7] transition-colors duration-300 ease-in-out hover:text-white;
+    @apply w-fit flex relative items-center justify-center py-2 pr-2 pl-8 lg:gap-4 bg-[#F0F5FF] rounded-[100px] font-semibold text-[#304E7E] text-[18px] cursor-pointer hover:bg-[#5793F7] transition-colors duration-300 ease-in-out hover:text-white;
   }
   footer h3 {
     @apply text-xl font-normal text-[#323E59] mb-2;
