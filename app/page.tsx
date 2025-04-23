@@ -17,7 +17,7 @@ const DigitalProductsSection = dynamic(() => import('@/components/DigitalProduct
 export default function Home() {
   return (
     <>
-      <section className="main overflow-hidden relative">
+      <section className="main overflow-hidden relative pt-20 md:pt-0">
         <ParticlesClientWrapper className="right-0 top-0 mask-l-from-0% mask-b-from-50% w-full" />
         <div className="container flex flex-col justify-center lg:h-[880px] lg:w-[1100px] mx-auto w-full h-auto">
           <h1 className="max-w-[544px] lg:mb-5 w-full mb-6">

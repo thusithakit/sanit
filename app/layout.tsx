@@ -28,7 +28,7 @@ export default function RootLayout({
       <body className={`${figtree.variable} ${bricolage.variable} font-sans`}>
         <Navbar />
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
