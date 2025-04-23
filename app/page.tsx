@@ -26,7 +26,7 @@ export default function Home() {
           <p className="max-w-[352px] text-[20px] lg:mb-10 lg:text-2xl text-[#748099] mb-4">
             Your trusted partner in seamless system intergration
           </p>
-          <div className="flex items-center gap-4 z-10">
+          <div className="flex flex-col md:flex-row items-start md:items-center gap-4 z-10">
             <PrimaryButton href="/services/network-solutions">
               Our Services
             </PrimaryButton>
