@@ -251,7 +251,7 @@
     @apply text-[#0C5ADB] font-semibold;
   }
   .inputs {
-    @apply text-[18px] py-4 px-2 border border-[#E5EDFF] border-t-0 border-x-0 rounded-none;
+    @apply md:text-[18px] py-4 px-2 border border-[#E5EDFF] border-t-0 border-x-0 rounded-none;
   }
 }
 
