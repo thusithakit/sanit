@@ -7,10 +7,10 @@ const Footer = () => {
     return (
         <footer className='bg-white'>
             <div className="container py-24">
-                <div className='flex justify-between items-start'>
+                <div className='flex flex-col gap-5 md:gap-0 md:flex-row justify-between items-start py-10 md:py-0'>
                     <h2>LOGO</h2>
-                    <div className='mb-24'>
-                        <div className='grid grid-cols-3 gap-14 mb-16'>
+                    <div className='md:mb-24'>
+                        <div className='grid md:grid-cols-3 gap-8 md:gap-14 mb-16'>
                             <div className='flex flex-col gap-6'>
                                 <Link href='/contact' className='footer-link'><h3>Contact Us</h3></Link>
                                 <Link href='/about' className='footer-link'><h3>About Us</h3></Link>
@@ -31,7 +31,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <h1 className='border border-t-0 border-x-0 border-b-[#E0EAFF]'>Get In <span>Touch</span></h1>
-                        <div className='flex justify-between items-start gap-8'>
+                        <div className='flex justify-between flex-col md:flex-row items-start gap-8'>
                             <div className='flex flex-col gap-4 pt-7'>
                                 <a href="mailto:info@sanit.lk" className='footer-link'><p>info@sanit.lk</p></a>
                                 <a href="tel:+94112772222" className='footer-link'><p>+94 11 2 772 222</p></a>
@@ -41,7 +41,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex items-center justify-between gap-4'>
+                <div className='flex items-center justify-between gap-4 flex-wrap flex-col-reverse text-center md:flex-row md:text-left md:flex-nowrap'>
                     <p className='text-sm text-[#748099]'>Copyright Sanit Invention Private Limited. All Rights Reserved.</p>
                     <Link href="/terms" className='footer-link'><p className='underline'>Terms & Conditions</p></Link>
                     <Link href="/privacy" className='footer-link'><p className='underline'>Privacy Policy</p></Link>

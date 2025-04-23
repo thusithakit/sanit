@@ -82,7 +82,7 @@ const MobileNavBar = ({ setIsMobileNavOpen, isActive }: { setIsMobileNavOpen: Re
         setOpenSubMenu(openSubMenu === index ? null : index);
     };
     return (
-        <div className="absolute top-0 left-0 w-full h-[100dvh] bg-white z-50 transition-all duration-300 py-8 overflow-hidden">
+        <div className="absolute top-0 left-0 w-full h-[100dvh] bg-white z-50 transition-all duration-300 overflow-hidden">
             <div className="container no-border flex justify-between items-center">
                 <Link href="/" className="py-6">
                     <h2>Logo</h2>

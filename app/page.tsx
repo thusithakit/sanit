@@ -23,11 +23,11 @@ export default function Home() {
           <h1 className="max-w-[544px] lg:mb-5 w-full mb-6">
             Ensuring Your <span>Connectivity</span>
           </h1>
-          <p className="max-w-[352px] lg:mb-10 lg:text-2xl text-[#748099] mb-4">
+          <p className="max-w-[352px] text-[20px] lg:mb-10 lg:text-2xl text-[#748099] mb-4">
             Your trusted partner in seamless system intergration
           </p>
           <div className="flex items-center gap-4 z-10">
-            <PrimaryButton href="/services">
+            <PrimaryButton href="/services/network-solutions">
               Our Services
             </PrimaryButton>
             <Link href="/about" className="border border-[#D7E2F5] px-5 py-3 rounded-full lg:px-8 lg:py-4 text-[#304E7E] font-[600] text-[18px] lg:rounded-[100px] bg-white hover:animate-pulse hover:bg-[#304E7E] hover:text-white duration-300">Why SANIT?</Link>
@@ -40,10 +40,10 @@ export default function Home() {
             This proves that we are the best at what we do...
           </p>
           <div className="lg:flex lg:gap-8 grid grid-cols-2 lg:flex-2/3 lg:grid-cols-4">
-            <Numbers number={14} slug="Years of Experience" className="flex border border-t-0 border-l-0 border-[#748099] lg:border-none p-2.5 lg:p-0" />
-            <Numbers number={20} slug="Technology Partners" className="flex border border-t-0 border-r-0 border-[#748099] lg:border-none p-2.5 lg:p-0" />
-            <Numbers number={200} slug="Finished Projects" className="flex border border-b-0 border-l-0 border-[#748099] lg:border-none p-2.5 lg:p-0" />
-            <Numbers number={147} slug="Happy Customers" className="flex border border-b-0 border-r-0 border-[#748099] lg:border-none p-2.5 lg:p-0" />
+            <Numbers number={14} slug="Years of Experience" className="flex p-2.5 lg:p-0" />
+            <Numbers number={20} slug="Technology Partners" className="flex p-2.5 lg:p-0" />
+            <Numbers number={200} slug="Finished Projects" className="flex p-2.5 lg:p-0" />
+            <Numbers number={147} slug="Happy Customers" className="flex p-2.5 lg:p-0" />
           </div>
         </div>
       </section>
@@ -58,7 +58,7 @@ export default function Home() {
         <div className="container py-16 lg:pt-[150px] lg:pb-[126px] flex flex-col justify-center gap-10 lg:justify-between lg:flex-row items-center lg:gap-24">
           <div>
             <h1 className="lg:mb-5 lg:w-[448px]">Why Sanit <span>Stands Out?</span></h1>
-            <p className="text-[#748099] lg:text-2xl lg:w-[352px]">Your trusted partner in seamless system intergration</p>
+            <p className="text-[#748099] text-[20px] lg:text-2xl lg:w-[352px]">Your trusted partner in seamless system intergration</p>
           </div>
           <CarouselCard />
         </div>
@@ -72,7 +72,7 @@ export default function Home() {
           <div>
             <Badge variant="outline" className="text-xs text-[#323E59] font-normal py-2.5 px-4 rounded-[100px]">14+ Years of Experience</Badge>
             <h1 className="lg:w-[480px] mb-2">Ensuring Your <span>Connectivity</span></h1>
-            <p className="lg:text-2xl text-[#748099] lg:mb-9">Let’s get connected</p>
+            <p className="text-[20px] lg:text-2xl text-[#748099] lg:mb-9">Let’s get connected</p>
             <div className="flex items-center justify-start lg:gap-2">
               <p className="lg:text-[18px] text-[#748099] mr-1">Follow us:</p>
               <SocialIcons className="bg-white" data={companySocialMediaLinks} />
