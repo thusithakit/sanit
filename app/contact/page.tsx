@@ -47,7 +47,7 @@ const page = () => {
                     <div className='grid md:gap-8 gap-5'>
                         {branchDetails.map((branch, i) => (
                             <div key={i} id={branch.branchName.toLowerCase().replace(/&/g, "").replace(/[^a-z0-9\s-]/g, "").trim().replace(/\s+/g, "-")} className='flex md:gap-8 gap-3 flex-wrap md:flex-nowrap'>
-                                <Image src={branch.branchPhoto || "/branch_background.png"} alt={`This is a picture of ${branch.branchName}`} width={544} height={600} className='object-cover md:min-w-[544px] min-w-full' />
+                                <Image src={branch.branchPhoto || "/branch_background.webp"} alt={`This is a picture of ${branch.branchName}`} width={544} height={600} className='object-cover md:min-w-[544px] min-w-full' />
                                 <div className='md:mx-8 md:py-8 ml-0 border border-x-0 border-t-0 border-b-[#E0EAFF] w-full pb-5'>
                                     <h3 className='md:text-[52px] text-[#92ABD6] md:mb-7 text-3xl mb-4'>SANIT Inventions <br />{branch.branchName.split("SANIT Inventions ")[1]}</h3>
                                     <div className='grid md:grid-cols-2 gap-3 md:gap-7 md:text-xl md:mb-10 mb-7 text-[18px]'>

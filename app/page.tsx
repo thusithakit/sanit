@@ -68,7 +68,7 @@ export default function Home() {
       <section className="relative bg-linear-to-t from-[#F0F5FD] from-80% to-white lg:pt-16 mask-b-from-70%">
         <ParticlesClientWrapper className="left-0 top-0 mask-r-from-0% z-0" />
         <div className="container no-border flex flex-col-reverse lg:flex-row justify-center lg:justify-start items-center gap-10">
-          <Image src="/ensure.png" alt="Ensuring Your Connectivity" width={523} height={554} className="bottom-0 left-0 z-10 block relative" />
+          <Image src="/ensure.webp" alt="Ensuring Your Connectivity" width={523} height={554} className="bottom-0 left-0 z-10 block relative" />
           <div>
             <Badge variant="outline" className="text-xs text-[#323E59] font-normal py-2.5 px-4 rounded-[100px]">14+ Years of Experience</Badge>
             <h1 className="lg:w-[480px] mb-2">Ensuring Your <span>Connectivity</span></h1>
