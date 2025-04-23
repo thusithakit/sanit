@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📸 Sanit.lk Website
 
-## Getting Started
+This is the official website for [Sanit.lk](https://sanit.lk), developed using [Next.js](https://nextjs.org/) and [TypeScript](https://www.typescriptlang.org/). The site is built with performance, accessibility, and responsive design in mind.
 
-First, run the development server:
+## 🚀 Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: Tailwind CSS / CSS Modules (choose based on what you use)
+- **Deployment**: [Netlify](https://www.netlify.com/)
+
+
+## 💻 Getting Started
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/thusithakit/sanit.lk.git
+cd sanit.lk
+npm install
+# or
+yarn install
+```
+Run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+Open http://localhost:3000 with your browser to see the result.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📦 Available Scripts
+dev – Start development server
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+build – Create optimized production build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+start – Run production server
 
-## Learn More
+lint – Run ESLint
 
-To learn more about Next.js, take a look at the following resources:
+format – Format code using Prettier
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✨ Features
+🔍 SEO-friendly with next/head
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+⚡ Optimized performance using static and dynamic rendering
 
-## Deploy on Vercel
+📱 Mobile-first, responsive design
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+💎 Clean and maintainable codebase
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🌐 Deployment
+The site is deployed using Netlify. Every push to the main branch triggers an automatic deployment.
+
+🤝 Contributing
+This project is maintained by Thusitha Kithuldora. Currently not accepting external contributions.
+
