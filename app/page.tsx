@@ -17,7 +17,7 @@ const DigitalProductsSection = dynamic(() => import('@/components/DigitalProduct
 export default function Home() {
   return (
     <>
-      <section className="main overflow-hidden relative pt-20 md:pt-0">
+      <section className="main overflow-hidden relative pt-20 lg:pt-0">
         <ParticlesClientWrapper className="right-0 top-0 mask-l-from-0% mask-b-from-50% w-full" />
         <div className="container flex flex-col justify-center lg:h-[880px] lg:w-[1100px] mx-auto w-full h-auto">
           <h1 className="max-w-[544px] lg:mb-5 w-full mb-6">
@@ -26,7 +26,7 @@ export default function Home() {
           <p className="max-w-[352px] text-[20px] lg:mb-10 lg:text-2xl text-[#748099] mb-4">
             Your trusted partner in seamless system intergration
           </p>
-          <div className="flex flex-col md:flex-row items-start md:items-center gap-4 z-10">
+          <div className="flex flex-col lg:flex-row items-start lg:items-center gap-4 z-10">
             <PrimaryButton href="/services/network-solutions">
               Our Services
             </PrimaryButton>

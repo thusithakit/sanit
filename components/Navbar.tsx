@@ -43,7 +43,7 @@ const Navbar = () => {
                 <Link href="/" className="py-6">
                     <h2>Logo</h2>
                 </Link>
-                <div className="hidden md:block nav-links">
+                <div className="hidden lg:block nav-links">
                     <nav>
                         {navLinks.map((navLink, i) => (
                             <div key={i} className={`group top-link ${isScrolled ? "py-6" : "py-8"}`}>
@@ -66,7 +66,7 @@ const Navbar = () => {
                         ))}
                     </nav>
                 </div>
-                <span className="flex items-center justify-center md:hidden border border-[#D7E2F5] rounded-full py-4 px-6 gap-3 cursor-pointer bg-white" onClick={() => setIsMobileNavOpen((prev) => !prev)}>
+                <span className="flex items-center justify-center lg:hidden border border-[#D7E2F5] rounded-full py-4 px-6 gap-3 cursor-pointer bg-white" onClick={() => setIsMobileNavOpen((prev) => !prev)}>
                     <MenuIcon color="#304E7E" />
                     <h2 className="text-sm text-[#304E7E]">Menu</h2>
                 </span>
@@ -87,7 +87,7 @@ const MobileNavBar = ({ setIsMobileNavOpen, isActive }: { setIsMobileNavOpen: Re
                 <Link href="/" className="py-6">
                     <h2>Logo</h2>
                 </Link>
-                <span className="flex items-center justify-center md:hidden border border-[#D7E2F5] rounded-full py-4 px-6 gap-3 cursor-pointer bg-white" onClick={() => setIsMobileNavOpen((prev) => !prev)}>
+                <span className="flex items-center justify-center lg:hidden border border-[#D7E2F5] rounded-full py-4 px-6 gap-3 cursor-pointer bg-white" onClick={() => setIsMobileNavOpen((prev) => !prev)}>
                     <X color="#304E7E" />
                     <h2 className="text-sm text-[#304E7E]">Close</h2>
                 </span>

@@ -212,6 +212,7 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
+    font-family: var(--font-figtree);
   }
   body {
     @apply bg-background text-foreground;
@@ -242,7 +243,7 @@
 @layer utilities {
 
   .container {
-    @apply lg:w-[1120px] mx-auto relative py-10 px-5 md:px-0;
+    @apply lg:w-[1120px] mx-auto relative py-10 px-5 lg:px-0;
   }
   .container.no-border {
     @apply py-0;
@@ -251,7 +252,7 @@
     @apply text-[#0C5ADB] font-semibold;
   }
   .inputs {
-    @apply md:text-[18px] py-4 px-2 border border-[#E5EDFF] border-t-0 border-x-0 rounded-none;
+    @apply lg:text-[18px] py-4 px-2 border border-[#E5EDFF] border-t-0 border-x-0 rounded-none;
   }
 }
 
