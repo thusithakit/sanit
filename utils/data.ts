@@ -240,7 +240,7 @@ export const companySocialMediaLinks: SocailMediaLinks = {
 export const branchDetails: BranchDetails[] = [
     {
         branchName: "SANIT Inventions Head Office & NOC",
-        branchAddress: "No: 32/2A, Udumulla Road, Battaramulla, Sri Lanka.",
+        branchAddress: "No: 32/2A, Udumulla Road, Battaramulla",
         branchPhone: "+94 11 2 772 222",
         branchEmail: "info@sanit.lk",
         branchMapUrl: "https://maps.app.goo.gl/rcNABrWwciQWJET1A",
@@ -248,7 +248,7 @@ export const branchDetails: BranchDetails[] = [
     },
     {
         branchName: "SANIT Inventions Kotte Branch",
-        branchAddress: "No: 32/2A, Udumulla Road, Battaramulla, Sri Lanka.",
+        branchAddress: "No: 154, Sandatenna Mawatha, Sri Jayawardenepura Kotte",
         branchPhone: "+94 11 2 772 222",
         branchEmail: "info@sanit.lk",
         branchMapUrl: "https://maps.app.goo.gl/rcNABrWwciQWJET1A",
@@ -256,7 +256,7 @@ export const branchDetails: BranchDetails[] = [
     },
     {
         branchName: "SANIT Inventions Anuradhapura Branch",
-        branchAddress: "No: 32/2A, Udumulla Road, Battaramulla, Sri Lanka.",
+        branchAddress: "No: 580A, Pandulagama, Anuradhapura",
         branchPhone: "+94 11 2 772 222",
         branchEmail: "info@sanit.lk",
         branchMapUrl: "https://maps.app.goo.gl/rcNABrWwciQWJET1A",

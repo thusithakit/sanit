@@ -46,12 +46,12 @@ const page = () => {
                     <h2 className='lg:text-[32px] text-[28px] mb-[30px] lg:mb-[88px] text-center'>Our Branches close to you!</h2>
                     <div className='grid lg:gap-8 gap-5'>
                         {branchDetails.map((branch, i) => (
-                            <div key={i} id={branch.branchName.toLowerCase().replace(/&/g, "").replace(/[^a-z0-9\s-]/g, "").trim().replace(/\s+/g, "-")} className='flex lg:gap-8 gap-3 flex-wrap lg:flex-nowrap'>
+                            <div key={i} id={branch.branchName.toLowerCase().replace(/&/g, "").replace(/[^a-z0-9\s-]/g, "").trim().replace(/\s+/g, "-")} className='flex lg:gap-8 gap-3 flex-wrap lg:flex-nowrap border border-[E0EAFF] lg:border-0'>
                                 <Image src={branch.branchPhoto || "/branch_background.webp"} alt={`This is a picture of ${branch.branchName}`} width={544} height={600} className='object-cover lg:min-w-[544px] min-w-full' />
-                                <div className='lg:mx-8 lg:py-8 ml-0 border border-x-0 border-t-0 border-b-[#E0EAFF] w-full pb-5'>
+                                <div className='lg:px-0 px-5 lg:py-8 border border-x-0 border-t-0 border-b-[#E0EAFF] w-full pb-5'>
                                     <h3 className='lg:text-[52px] text-[#92ABD6] lg:mb-7 text-3xl mb-4'>SANIT Inventions <br />{branch.branchName.split("SANIT Inventions ")[1]}</h3>
                                     <div className='grid lg:grid-cols-2 gap-3 lg:gap-7 lg:text-xl lg:mb-10 mb-7 text-[18px]'>
-                                        <p className='w-[250px] lg:w-full'>{branch.branchAddress}</p>
+                                        <p className='w-[250px] lg:w-full'>{branch.branchAddress},<span className='block'>Sri Lanka.</span></p>
                                         <div>
                                             {branch.branchEmail && <p className='mb-3.5'>Email: {branch.branchEmail}</p>}
                                             {branch.branchPhone && <p>Phone: {branch.branchPhone}</p>}
