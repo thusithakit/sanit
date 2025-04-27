@@ -1,5 +1,5 @@
 "use client"
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from './ui/carousel'
+import { Carousel, CarouselContent, CarouselItem } from './ui/carousel'
 import Image from 'next/image'
 import { Card, CardContent } from './ui/card'
 import expert from '@/public/team-of-experts.webp'
