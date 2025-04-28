@@ -2,13 +2,17 @@ import Link from 'next/link'
 import React from 'react'
 import SocialIcons from './SocialIcons'
 import { companySocialMediaLinks } from '@/utils/data'
+import Image from 'next/image'
+import logo from "@/public/logo.svg"
 
 const Footer = () => {
     return (
         <footer className='bg-white'>
             <div className="container py-24">
                 <div className='flex flex-col gap-5 lg:gap-0 lg:flex-row justify-between items-start py-10 lg:py-0'>
-                    <h2>LOGO</h2>
+                    <Link href="/" className='relative mx-auto lg:mx-0'>
+                        <Image src={logo} alt="Logo" width={200} />
+                    </Link>
                     <div className='lg:mb-24'>
                         <div className='grid lg:grid-cols-3 gap-8 lg:gap-14 mb-16'>
                             <div className='flex flex-col gap-6'>

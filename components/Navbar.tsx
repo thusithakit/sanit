@@ -4,6 +4,8 @@ import { ChevronDown, MenuIcon, MoveRight, X } from "lucide-react";
 import Link from "next/link"
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import logo from "@/public/logo.svg";
+import Image from "next/image";
 
 
 const Navbar = () => {
@@ -40,8 +42,8 @@ const Navbar = () => {
     return (
         <header className={`fixed top-0 w-full max-w-[100dvw] z-50 transition-all duration-300 ${isScrolled ? "bg-white shadow-md" : "bg-transparent"}`}>
             <div className="container no-border flex justify-between items-center">
-                <Link href="/" className="py-6">
-                    <h2>Logo</h2>
+                <Link href="/" className="py-3">
+                    <Image src={logo} alt="Logo" width={150} />
                 </Link>
                 <div className="hidden lg:block nav-links">
                     <nav>
@@ -84,8 +86,8 @@ const MobileNavBar = ({ setIsMobileNavOpen, isActive }: { setIsMobileNavOpen: Re
     return (
         <div className="absolute top-0 left-0 w-full h-[100dvh] bg-white z-50 transition-all duration-300 overflow-hidden">
             <div className="container no-border flex justify-between items-center">
-                <Link href="/" className="py-6">
-                    <h2>Logo</h2>
+                <Link href="/" className="py-3">
+                    <Image src={logo} alt="Logo" width={120} />
                 </Link>
                 <span className="flex items-center justify-center lg:hidden border border-[#D7E2F5] rounded-full py-4 px-6 gap-3 cursor-pointer bg-white" onClick={() => setIsMobileNavOpen((prev) => !prev)}>
                     <X color="#304E7E" />
