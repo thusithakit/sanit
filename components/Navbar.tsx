@@ -108,7 +108,7 @@ const MobileNavBar = ({ setIsMobileNavOpen, isActive }: { setIsMobileNavOpen: Re
                         {navLink.children && (openSubMenu === i) && (
                             <div className="transition-all duration-300 grid">
                                 {navLink.children.map((child, j) => (
-                                    <Link href={child.href || "/"} key={j} onClick={() => setIsMobileNavOpen(false)} className="py-3.5 text-[16px] text-[#748099]">{child.label}</Link>
+                                    <Link href={child.href || "/"} key={j} onClick={() => setIsMobileNavOpen(false)} className="py-3.5 text-[16px] text-[#677187]">{child.label}</Link>
                                 ))}
                             </div>
                         )}

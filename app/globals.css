@@ -264,7 +264,7 @@
     @apply text-xl font-normal text-[#323E59] mb-2;
   }
   footer .footer-link p {
-    @apply text-[#748099]
+    @apply text-[#677187]
   }
   footer .footer-link p, footer .footer-link h3 {
     @apply hover:text-[#0C5ADB] transition-colors duration-300 ease-in-out;

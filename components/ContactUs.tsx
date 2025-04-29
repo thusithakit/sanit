@@ -8,7 +8,7 @@ const ContactUs = () => {
             <div className="container">
                 <h1 className="lg:max-w-4xl mb-6 text-[44px] lg:text-[72px]"><span>Have questions?</span><br />
                     Need a custom IT solution for your business?</h1>
-                <p className="text-[#748099] lg:max-w-2xl lg:text-2xl mb-9 text-[20px]">Contact us today and let’s discuss how we can help your business thrive in a connected world!</p>
+                <p className="text-[#677187] lg:max-w-2xl lg:text-2xl mb-9 text-[20px]">Contact us today and let’s discuss how we can help your business thrive in a connected world!</p>
                 <PrimaryButton href="/contact">
                     Contact Us
                 </PrimaryButton>

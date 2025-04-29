@@ -46,7 +46,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='flex items-center justify-between gap-4 flex-wrap flex-col-reverse text-center lg:flex-row lg:text-left lg:flex-nowrap'>
-                    <p className='text-sm text-[#748099]'>Copyright Sanit Invention Private Limited. All Rights Reserved.</p>
+                    <p className='text-sm text-[#677187]'>Copyright Sanit Invention Private Limited. All Rights Reserved.</p>
                     <Link href="/terms" className='footer-link'><p className='underline'>Terms & Conditions</p></Link>
                     <Link href="/privacy" className='footer-link'><p className='underline'>Privacy Policy</p></Link>
                 </div>

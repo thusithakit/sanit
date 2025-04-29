@@ -23,7 +23,7 @@ export default function Home() {
           <h1 className="max-w-[544px] lg:mb-5 w-full mb-6">
             Ensuring Your <span>Connectivity</span>
           </h1>
-          <p className="max-w-[352px] text-[20px] lg:mb-10 lg:text-2xl text-[#748099] mb-4">
+          <p className="max-w-[352px] text-[20px] lg:mb-10 lg:text-2xl text-[#677187] mb-4">
             Your trusted partner in seamless system intergration
           </p>
           <div className="flex flex-col lg:flex-row items-start lg:items-center gap-4 z-10">
@@ -58,7 +58,7 @@ export default function Home() {
         <div className="container py-16 lg:pt-[150px] lg:pb-[126px] flex flex-col justify-center gap-10 lg:justify-between lg:flex-row items-center lg:gap-24">
           <div>
             <h1 className="lg:mb-5 lg:w-[448px]">Why Sanit <span>Stands Out?</span></h1>
-            <p className="text-[#748099] text-[20px] lg:text-2xl lg:w-[352px]">Your trusted partner in seamless system intergration</p>
+            <p className="text-[#677187] text-[20px] lg:text-2xl lg:w-[352px]">Your trusted partner in seamless system intergration</p>
           </div>
           <CarouselCard />
         </div>
@@ -72,9 +72,9 @@ export default function Home() {
           <div>
             <Badge variant="outline" className="text-xs text-[#323E59] font-normal py-2.5 px-4 rounded-[100px]">14+ Years of Experience</Badge>
             <h1 className="lg:w-[480px] mb-2">Ensuring Your <span>Connectivity</span></h1>
-            <p className="text-[20px] lg:text-2xl text-[#748099] lg:mb-9">Let’s get connected</p>
+            <p className="text-[20px] lg:text-2xl text-[#677187] lg:mb-9">Let’s get connected</p>
             <div className="flex items-center justify-start lg:gap-2">
-              <p className="lg:text-[18px] text-[#748099] mr-1">Follow us:</p>
+              <p className="lg:text-[18px] text-[#677187] mr-1">Follow us:</p>
               <SocialIcons className="bg-white" data={companySocialMediaLinks} />
             </div>
           </div>

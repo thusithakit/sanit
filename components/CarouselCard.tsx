@@ -27,7 +27,7 @@ const CarouselCard = () => {
                         <CardContent>
                             <Image src={expert} alt='Team of Experts' className='mb-[27px] lg:mb-10 lg:w-full' />
                             <h2 className='text-[#323E59] text-[20px] lg:text-[28px] mb-2.5'>Experienced Team of Experts</h2>
-                            <p className='lg:text-[18px] text-[#748099]'>
+                            <p className='lg:text-[18px] text-[#677187]'>
                                 Our team comprises seasoned professionals with extensive expertise in system integration and a deep understanding of the latest technologies.
                             </p>
                         </CardContent>
@@ -38,7 +38,7 @@ const CarouselCard = () => {
                         <CardContent>
                             <Image src={cost} alt='Team of Experts' className='mb-[27px] lg:mb-10 lg:w-full' />
                             <h2 className='text-[#323E59] text-[20px] lg:text-[28px] mb-2.5'>Cost-Effective Solutions</h2>
-                            <p className='lg:text-[18px] text-[#748099]'>
+                            <p className='lg:text-[18px] text-[#677187]'>
                                 Our commitment to efficiency extends to your budget. We provide cost-effective solutions without compromising on quality, helping you achieve maximum ROI.
                             </p>
                         </CardContent>
@@ -49,7 +49,7 @@ const CarouselCard = () => {
                         <CardContent>
                             <Image src={support} alt='Team of Experts' className='mb-[27px] lg:mb-10 lg:w-full' />
                             <h2 className='text-[#323E59] text-[20px] lg:text-[28px] mb-2.5'>Continuous Support and Maintenance</h2>
-                            <p className='lg:text-[18px] text-[#748099]'>
+                            <p className='lg:text-[18px] text-[#677187]'>
                                 Beyond implementation, we offer ongoing support and maintenance services to ensure that your systems operate at peak performance, minimizing downtime.
                             </p>
                         </CardContent>

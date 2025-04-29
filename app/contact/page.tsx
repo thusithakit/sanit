@@ -35,7 +35,7 @@ const page = () => {
                     </div>
                     <div className='flex-1 lg:w-[544px] bg-white border border-[#E5EDFF] rounded-sm lg:pt-14 lg:pb-16 lg:px-8 pt-10 pb-8 px-6'>
                         <h2 className='lg:text-[32px] text-[28px] mb-4'>Online Inquiry</h2>
-                        <p className='text-[20px] text-[#748099] mb-7 lg:mb-[88px]'>
+                        <p className='text-[20px] text-[#677187] mb-7 lg:mb-[88px]'>
                             Please feel free to get in touch at any time.<br />
                             We look forward to supporting you.
                         </p>
