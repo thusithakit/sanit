@@ -6,6 +6,7 @@ import { companySocialMediaLinks } from "@/utils/data";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
+import HeroImg from "@/public/hero.webp";
 
 const CarouselCard = dynamic(() => import("@/components/CarouselCard"));
 const Numbers = dynamic(() => import("@/components/Numbers"));
@@ -17,21 +18,24 @@ const DigitalProductsSection = dynamic(() => import('@/components/DigitalProduct
 export default function Home() {
   return (
     <>
-      <section className="main overflow-hidden relative pt-20 lg:pt-0">
+      <section className="main overflow-hidden relative pt-20 lg:pt-0 lg:mask-b-from-70%">
         <ParticlesClientWrapper className="right-0 top-0 mask-l-from-0% mask-b-from-50% w-full" />
-        <div className="container flex flex-col justify-center lg:h-[880px] lg:w-[1100px] mx-auto w-full h-auto">
-          <h1 className="max-w-[544px] lg:mb-5 w-full mb-6">
-            Ensuring Your <span>Connectivity</span>
-          </h1>
-          <p className="max-w-[352px] text-[20px] lg:mb-10 lg:text-2xl text-[#677187] mb-4">
-            Your trusted partner in seamless system intergration
-          </p>
-          <div className="flex flex-col lg:flex-row items-start lg:items-center gap-4 z-10">
-            <PrimaryButton href="/services/network-solutions">
-              Our Services
-            </PrimaryButton>
-            <Link href="/about" className="border border-[#D7E2F5] px-5 py-3 rounded-full lg:px-8 lg:py-4 text-[#304E7E] font-[600] text-[18px] lg:rounded-[100px] bg-white hover:animate-pulse hover:bg-[#304E7E] hover:text-white duration-300">Why SANIT?</Link>
+        <div className="container hero flex justify-between lg:h-[880px] lg:w-[1100px] mx-auto w-full h-auto">
+          <div className=" flex flex-col justify-center">
+            <h1 className="max-w-[544px] lg:mb-5 w-full mb-6">
+              Ensuring Your <span>Connectivity</span>
+            </h1>
+            <p className="max-w-[352px] text-[20px] lg:mb-10 lg:text-2xl text-[#677187] mb-4">
+              Your trusted partner in seamless system intergration
+            </p>
+            <div className="flex flex-col lg:flex-row items-start lg:items-center gap-4 z-10">
+              <PrimaryButton href="/services/network-solutions">
+                Our Services
+              </PrimaryButton>
+              <Link href="/about" className="border border-[#D7E2F5] px-5 py-3 rounded-full lg:px-8 lg:py-4 text-[#304E7E] font-[600] text-[18px] lg:rounded-[100px] bg-white hover:animate-pulse hover:bg-[#304E7E] hover:text-white duration-300">Why SANIT?</Link>
+            </div>
           </div>
+          <Image src={HeroImg} alt="Hero Imge" className="hidden lg:block" />
         </div>
       </section>
       <section className="bg-linear-to-t from-white to-[#F0F5FD]">

@@ -248,6 +248,9 @@
   .container.no-border {
     @apply py-0;
   }
+  .container.hero {
+    @apply lg:pb-0;
+  }
   .active {
     @apply text-[#0C5ADB] font-semibold;
   }

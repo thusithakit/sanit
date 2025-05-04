@@ -67,15 +67,15 @@ export const serviceDetails: ServicePageDetails[] = [
             cardDetails: [
                 {
                     cardDescription: "Structured Cabling for seamless data transmission",
-                    cardImage: "/ensure.webp"
+                    cardImage: "/services/cabling.webp"
                 },
                 {
                     cardDescription: "LAN & WAN Setup for high-speed connectivity",
-                    cardImage: "/ensure.webp"
+                    cardImage: "/services/lan.webp"
                 },
                 {
                     cardDescription: "Network Maintenance & Troubleshooting to ensure uninterrupted operations",
-                    cardImage: "/ensure.webp"
+                    cardImage: "/services/maintenance.webp"
                 }
             ]
         }
@@ -159,12 +159,12 @@ export const productDetails: ProductPageDetails[] = [
                 {
                     cardTitle: "Routers",
                     cardDescription: "High performance networking for home and business",
-                    cardImage: "/ensure.webp"
+                    cardImage: "/products/routers.webp"
                 },
                 {
                     cardTitle: "Switches",
                     cardDescription: "Managed and unmanaged switches for seamless connectivity",
-                    cardImage: "/ensure.webp"
+                    cardImage: "/products/routers.webp"
                 }
             ]
         }

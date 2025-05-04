@@ -16,10 +16,10 @@ const CommonHeader = ({ data }: { data: CommonCardProps }) => {
                     {cardDetails && cardDetails.map((card, i) => (
                         <div key={i} className="border border-[#E5EDFF] rounded-sm px-6 pt-6 pb-8 bg-white">
                             {card.cardImage && (
-                                <Image src={card.cardImage} alt={heading} width={315} height={300} className="object-cover mb-3" />
+                                <Image src={card.cardImage} alt={heading} width={315} height={300} className="object-cover mb-3 w-full" />
                             )}
                             {card.cardTitle && <h3 className="text-[#323E59] lg:text-[28px] mb-2.5 text-2xl">{card.cardTitle}</h3>}
-                            <p className="lg:text-2xl text-[#323E59] text-[20px]">{card.cardDescription}</p>
+                            <p className="lg:text-[18px] text-[#323E59] text-[16px]">{card.cardDescription}</p>
                         </div>
                     ))}
                 </div>
