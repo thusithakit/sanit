@@ -89,15 +89,15 @@ export const serviceDetails: ServicePageDetails[] = [
             cardDetails: [
                 {
                     cardDescription: "IP and Analog PABX Solutions",
-                    cardImage: "/ensure.webp"
+                    cardImage: "/services/cloud-phone.webp"
                 },
                 {
                     cardDescription: "Cloud-based Telephony",
-                    cardImage: "/ensure.webp"
+                    cardImage: "/services/cloud-phone.webp"
                 },
                 {
                     cardDescription: "Call Routing & Voicemail Integration",
-                    cardImage: "/ensure.webp"
+                    cardImage: "/services/call-routing.webp"
                 }
             ]
         }
@@ -111,15 +111,15 @@ export const serviceDetails: ServicePageDetails[] = [
             cardDetails: [
                 {
                     cardDescription: "Enterprise Wi-Fi Networks",
-                    cardImage: "/ensure.webp"
+                    cardImage: "/services/enterprise-wifi.webp"
                 },
                 {
                     cardDescription: "Mesh Wi-Fi & Hotspot Solutions",
-                    cardImage: "/ensure.webp"
+                    cardImage: "/services/mesh-wifi.webp"
                 },
                 {
                     cardDescription: "Bandwidth Optimization & Access Control",
-                    cardImage: "/ensure.webp"
+                    cardImage: "/services/bandwidth.webp"
                 }
             ]
         }
@@ -133,15 +133,15 @@ export const serviceDetails: ServicePageDetails[] = [
             cardDetails: [
                 {
                     cardDescription: "Enterprise-Grade Firewalls for intrusion prevention",
-                    cardImage: "/ensure.webp"
+                    cardImage: "/services/firewall.webp"
                 },
                 {
                     cardDescription: "VPN Setup for secure remote access",
-                    cardImage: "/ensure.webp"
+                    cardImage: "/services/vpn.webp"
                 },
                 {
                     cardDescription: "Cybersecurity Audits & Compliance Services",
-                    cardImage: "/ensure.webp"
+                    cardImage: "/services/audits.webp"
                 }
             ]
         }
@@ -179,12 +179,12 @@ export const productDetails: ProductPageDetails[] = [
                 {
                     cardTitle: "IP Phones",
                     cardDescription: "Feature-rich VoIP communication",
-                    cardImage: "/ensure.webp"
+                    cardImage: "/products/ip-phones.webp"
                 },
                 {
                     cardTitle: "Analog Phones",
                     cardDescription: "Classic landline solutions for businesses",
-                    cardImage: "/ensure.webp"
+                    cardImage: "/products/analog-phones.webp"
                 }
             ]
         }
@@ -199,12 +199,12 @@ export const productDetails: ProductPageDetails[] = [
                 {
                     cardTitle: "Access Points",
                     cardDescription: "Expand Wi-Fi coverage across large areas",
-                    cardImage: "/ensure.webp"
+                    cardImage: "/products/access-point.webp"
                 },
                 {
                     cardTitle: "Repeaters",
                     cardDescription: "Strengthen weak signals for uninterrupted connectivity",
-                    cardImage: "/ensure.webp"
+                    cardImage: "/products/access-point.webp"
                 }
             ]
         }
@@ -219,12 +219,12 @@ export const productDetails: ProductPageDetails[] = [
                 {
                     cardTitle: "Firewalls",
                     cardDescription: "Secure your network from cyber threats",
-                    cardImage: "/ensure.webp"
+                    cardImage: "/products/vpn-routers.webp"
                 },
                 {
                     cardTitle: "VPN Routers",
                     cardDescription: "Enable secure remote access for businesses",
-                    cardImage: "/ensure.webp"
+                    cardImage: "/products/vpn-routers.webp"
                 }
             ]
         }
