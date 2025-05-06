@@ -22,7 +22,7 @@ const Footer = () => {
                             <div className='flex flex-col gap-6'>
                                 <h3>Services</h3>
                                 <Link href='/services/network-solutions' className='footer-link'><p>Network Solutions</p></Link>
-                                <Link href='/services/pax-systems' className='footer-link'><p>PAX Systems</p></Link>
+                                <Link href='/services/pabx-systems' className='footer-link'><p>PABX Systems</p></Link>
                                 <Link href='/services/wifi-solutions' className='footer-link'><p>Wi-Fi Solutions</p></Link>
                                 <Link href='/services/firewall-solutions' className='footer-link'><p>Firewall Solutions</p></Link>
                             </div>
