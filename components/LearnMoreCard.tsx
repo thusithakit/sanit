@@ -2,13 +2,17 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import React, { JSXElementConstructor, ReactElement, useState } from "react";
+import React, { ReactElement, useState } from "react";
 
 const LearnMoreCard = ({ cardTitle, cardContent, href, className, icon }: { cardTitle: string, cardContent: string, href: string, className?: string, icon?: React.ReactNode }) => {
     const [isHovering, setIsHovered] = useState(false);
     const onMouseEnter = () => setIsHovered(true);
     const onMouseLeave = () => setIsHovered(false);
-    let styledIcon = React.isValidElement(icon) ? React.cloneElement(icon as ReactElement<any, string | JSXElementConstructor<any>>, { fill: isHovering ? "#fff" : "#323E59" }) : icon;
+    function cloneWithProps<P>(element: ReactElement<P>, props: Partial<P>): ReactElement<P> {
+        return React.cloneElement(element, props);
+    }
+
+    const styledIcon = React.isValidElement(icon) ? cloneWithProps(icon, { fill: isHovering ? "#fff" : "#323E59" }) : null;
     return (
         <div
             onMouseEnter={onMouseEnter}
