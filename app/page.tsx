@@ -33,7 +33,7 @@ export default function Home() {
               <PrimaryButton href="/services/network-solutions">
                 Our Services
               </PrimaryButton>
-              <Link href="/about" className="border border-[#D7E2F5] px-5 py-3 rounded-full lg:px-8 lg:py-4 text-[#304E7E] font-[600] text-[18px] lg:rounded-[100px] bg-white hover:animate-pulse hover:bg-[#304E7E] hover:text-white duration-300">Why SANIT?</Link>
+              <Link href="/about" className="border border-[#D7E2F5] px-5 py-3 rounded-full lg:px-8 lg:py-4 text-[#304E7E] font-[600] text-[18px] lg:rounded-[100px] bg-white hover:bg-[#304E7E] hover:text-white duration-300">Why SANIT?</Link>
             </div>
           </div>
           <Image src={HeroImg} width={544} height={800} alt="Hero Imge" className="hidden lg:block" />
