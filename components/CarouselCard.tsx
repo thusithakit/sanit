@@ -26,7 +26,7 @@ const CarouselCard = () => {
                     <Card className='w-full lg:w-[447px] rounded-none h-full'>
                         <CardContent>
                             <Image src={expert} alt='Team of Experts' className='mb-[27px] lg:mb-10 lg:w-full' />
-                            <h2 className='text-[#323E59] text-[20px] lg:text-[28px] mb-2.5'>Experienced Team of Experts</h2>
+                            <h2 className='text-[#323E59] text-[20px] lg:text-[28px] mb-2.5'>Customer-Centric Solutions</h2>
                             <p className='lg:text-[18px] text-[#677187]'>
                                 Our team comprises seasoned professionals with extensive expertise in system integration and a deep understanding of the latest technologies.
                             </p>
@@ -37,7 +37,7 @@ const CarouselCard = () => {
                     <Card className='w-full lg:w-[447px] rounded-none h-full'>
                         <CardContent>
                             <Image src={cost} alt='Team of Experts' className='mb-[27px] lg:mb-10 lg:w-full' />
-                            <h2 className='text-[#323E59] text-[20px] lg:text-[28px] mb-2.5'>Cost-Effective Solutions</h2>
+                            <h2 className='text-[#323E59] text-[20px] lg:text-[28px] mb-2.5'>Speed & Agility</h2>
                             <p className='lg:text-[18px] text-[#677187]'>
                                 Our commitment to efficiency extends to your budget. We provide cost-effective solutions without compromising on quality, helping you achieve maximum ROI.
                             </p>
@@ -48,9 +48,31 @@ const CarouselCard = () => {
                     <Card className='w-full lg:w-[447px] rounded-none h-full'>
                         <CardContent>
                             <Image src={support} alt='Team of Experts' className='mb-[27px] lg:mb-10 lg:w-full' />
-                            <h2 className='text-[#323E59] text-[20px] lg:text-[28px] mb-2.5'>Continuous Support and Maintenance</h2>
+                            <h2 className='text-[#323E59] text-[20px] lg:text-[28px] mb-2.5'>Scalability and Integration</h2>
                             <p className='lg:text-[18px] text-[#677187]'>
                                 Beyond implementation, we offer ongoing support and maintenance services to ensure that your systems operate at peak performance, minimizing downtime.
+                            </p>
+                        </CardContent>
+                    </Card>
+                </CarouselItem>
+                <CarouselItem>
+                    <Card className='w-full lg:w-[447px] rounded-none h-full'>
+                        <CardContent>
+                            <Image src={expert} alt='Team of Experts' className='mb-[27px] lg:mb-10 lg:w-full' />
+                            <h2 className='text-[#323E59] text-[20px] lg:text-[28px] mb-2.5'>Brand Trust</h2>
+                            <p className='lg:text-[18px] text-[#677187]'>
+                                Our team comprises seasoned professionals with extensive expertise in system integration and a deep understanding of the latest technologies.
+                            </p>
+                        </CardContent>
+                    </Card>
+                </CarouselItem>
+                <CarouselItem>
+                    <Card className='w-full lg:w-[447px] rounded-none h-full'>
+                        <CardContent>
+                            <Image src={cost} alt='Team of Experts' className='mb-[27px] lg:mb-10 lg:w-full' />
+                            <h2 className='text-[#323E59] text-[20px] lg:text-[28px] mb-2.5'>Exceptional Talents & Culture</h2>
+                            <p className='lg:text-[18px] text-[#677187]'>
+                                Our commitment to efficiency extends to your budget. We provide cost-effective solutions without compromising on quality, helping you achieve maximum ROI.
                             </p>
                         </CardContent>
                     </Card>

@@ -26,8 +26,8 @@ export default function Home() {
             <h1 className="max-w-[544px] lg:mb-5 w-full mb-6">
               Ensuring Your <span>Connectivity</span>
             </h1>
-            <p className="max-w-[352px] text-[20px] lg:mb-10 lg:text-2xl text-[#677187] mb-4">
-              Your trusted partner in seamless system intergration
+            <p className="max-w-[500px] text-[20px] lg:mb-10 lg:text-2xl text-[#677187] mb-4">
+              "Integrated Solutions, Trusted Partnership."
             </p>
             <div className="flex flex-col lg:flex-row items-start lg:items-center gap-4 z-10">
               <PrimaryButton href="/services/network-solutions">
@@ -45,10 +45,10 @@ export default function Home() {
             This proves that we are the best at what we do...
           </p>
           <div className="lg:flex lg:gap-8 grid grid-cols-2 lg:flex-2/3 lg:grid-cols-4">
-            <Numbers number={14} slug="Years of Experience" className="flex p-2.5 lg:p-0" />
+            <Numbers number={16} slug="Years of Experience" className="flex p-2.5 lg:p-0" />
             <Numbers number={20} slug="Technology Partners" className="flex p-2.5 lg:p-0" />
-            <Numbers number={200} slug="Finished Projects" className="flex p-2.5 lg:p-0" />
-            <Numbers number={147} slug="Happy Customers" className="flex p-2.5 lg:p-0" />
+            <Numbers number={250} slug="Finished Projects" className="flex p-2.5 lg:p-0" />
+            <Numbers number={200} slug="Delighted Customers" className="flex p-2.5 lg:p-0" />
           </div>
         </div>
       </section>
@@ -63,7 +63,7 @@ export default function Home() {
         <div className="container py-16 lg:pt-[150px] lg:pb-[126px] flex flex-col justify-center gap-10 lg:justify-between lg:flex-row items-center lg:gap-24">
           <div>
             <h1 className="lg:mb-5 lg:w-[448px]">Why Sanit <span>Stands Out?</span></h1>
-            <p className="text-[#677187] text-[20px] lg:text-2xl lg:w-[352px]">Your trusted partner in seamless system intergration</p>
+            <p className="text-[#677187] text-[20px] lg:text-2xl lg:w-[410px]">Smooth & Stable Integration – Backed by People Who are Capable of</p>
           </div>
           <CarouselCard />
         </div>
@@ -76,8 +76,11 @@ export default function Home() {
           <Image src="/ensure.webp" alt="Ensuring Your Connectivity" width={523} height={554} className="bottom-0 left-0 z-10 block relative" />
           <div>
             <Badge variant="outline" className="text-xs text-[#323E59] font-normal py-2.5 px-4 rounded-[100px]">14+ Years of Experience</Badge>
-            <h1 className="lg:w-[480px] mb-2">Ensuring Your <span>Connectivity</span></h1>
-            <p className="text-[20px] lg:text-2xl text-[#677187] lg:mb-9">Let’s get connected</p>
+            <h1 className="lg:w-[560px] mb-2">We're Just a <span>Message</span> Away!</h1>
+            <p className="text-[20px] lg:text-2xl text-[#677187] lg:mb-9">Connect with us</p>
+            <PrimaryButton href="/contact" classes="bg-white mb-4 border border-[#D7E2F5] hover:bg-[#304E7E] hover:text-white">
+              Contact Us
+            </PrimaryButton>
             <div className="flex items-center justify-start lg:gap-2">
               <p className="lg:text-[18px] text-[#677187] mr-1">Follow us:</p>
               <SocialIcons className="bg-white" data={companySocialMediaLinks} />

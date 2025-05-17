@@ -54,13 +54,13 @@ const ParticlesBackground = ({ className }: { className?: string }) => {
             },
             particles: {
                 color: {
-                    value: "#0C5ADB66",
+                    value: "#0C5ADB88",
                 },
                 links: {
-                    color: "#0C5ADB10",
+                    color: "#0C5ADB50",
                     distance: 150,
                     enable: true,
-                    opacity: 0.5,
+                    opacity: 0.7,
                     width: 1,
                 },
                 move: {
@@ -80,7 +80,7 @@ const ParticlesBackground = ({ className }: { className?: string }) => {
                     value: 200,
                 },
                 opacity: {
-                    value: 0.2,
+                    value: 0.4,
                 },
                 shape: {
                     type: "circle",
