@@ -17,7 +17,7 @@ const LearnMoreCard = ({ cardTitle, cardContent, href, className, icon }: { card
         <div
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
-            className={`hover:bg-[#0C5ADB] group ease-in-out duration-300 lg:px-8 lg:pt-24 lg:pb-8 px-4 py-6 ${className}`}
+            className={`hover:bg-[#0C5ADB] hover:scale-[1.05] group ease-in-out duration-300 lg:px-8 lg:pt-24 lg:pb-8 px-4 py-6 ${className}`}
         >
             <span className="mb-6 block">
                 {styledIcon ? styledIcon : <Image src="/card-icon.svg" alt="Card Icon" width={65} height={65} />}

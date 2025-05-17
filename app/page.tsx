@@ -27,7 +27,7 @@ export default function Home() {
               Ensuring Your <span>Connectivity</span>
             </h1>
             <p className="max-w-[500px] text-[20px] lg:mb-10 lg:text-2xl text-[#677187] mb-4">
-              "Integrated Solutions, Trusted Partnership."
+              &quot;Integrated Solutions, Trusted Partnership.&quot;
             </p>
             <div className="flex flex-col lg:flex-row items-start lg:items-center gap-4 z-10">
               <PrimaryButton href="/services/network-solutions">
@@ -44,7 +44,7 @@ export default function Home() {
           <p className="flex-1/3 text-xl text-[#323E59] lg:pr-12">
             This proves that we are the best at what we do...
           </p>
-          <div className="lg:flex lg:gap-8 grid grid-cols-2 lg:flex-2/3 lg:grid-cols-4">
+          <div className="lg:flex lg:gap-6 grid grid-cols-2 lg:flex-2/3 lg:grid-cols-4">
             <Numbers number={16} slug="Years of Experience" className="flex p-2.5 lg:p-0" />
             <Numbers number={20} slug="Technology Partners" className="flex p-2.5 lg:p-0" />
             <Numbers number={250} slug="Finished Projects" className="flex p-2.5 lg:p-0" />
@@ -55,7 +55,7 @@ export default function Home() {
       <section className="bg-white">
         <div className="container border border-[#E0EAFF] border-l-0 border-r-0 flex justify-center items-center flex-wrap lg:flex-nowrap w-fit">
           <Card cardTitle="Enterprise Solutions" cardContent="Weather you are SME or Enterprise, Government or BFSI, we have the solution for your IT needs." icon={<BsFillBuildingsFill size={65} />} />
-          <Card className="border border-[#E0EAFF] border-x-0 lg:border-x lg:border-t-0 lg:border-b-0" cardTitle="Managed Services" cardContent="Agile & Flexible approach to managing your IT infrastructure seamlessly. Discuss with our sales team now." icon={<BsDatabaseFillGear size={65} />} />
+          <Card className="border border-[#E0EAFF] border-x-0 lg:border-x lg:border-t-0 lg:border-b-0" cardTitle="Managed Services" cardContent="Agile & Flexible approach to manage your IT infrastructure seamlessly. Discuss with our sales team now." icon={<BsDatabaseFillGear size={65} />} />
           <Card cardTitle="IT Consultancy" cardContent="We have the expertise to help you define a game plan, to overcome any IT related support you required." icon={<BsFillLightbulbFill size={65} />} />
         </div>
       </section>
@@ -76,7 +76,7 @@ export default function Home() {
           <Image src="/ensure.webp" alt="Ensuring Your Connectivity" width={523} height={554} className="bottom-0 left-0 z-10 block relative" />
           <div>
             <Badge variant="outline" className="text-xs text-[#323E59] font-normal py-2.5 px-4 rounded-[100px]">14+ Years of Experience</Badge>
-            <h1 className="lg:w-[560px] mb-2">We're Just a <span>Message</span> Away!</h1>
+            <h1 className="lg:w-[560px] mb-2">We&apos;re Just a <span>Message</span> Away!</h1>
             <p className="text-[20px] lg:text-2xl text-[#677187] lg:mb-9">Connect with us</p>
             <PrimaryButton href="/contact" classes="bg-white mb-4 border border-[#D7E2F5] hover:bg-[#304E7E] hover:text-white">
               Contact Us

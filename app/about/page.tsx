@@ -11,13 +11,13 @@ const page = () => {
                     <h1 className='lg:w-[544px]'>Company <span>Overview</span></h1>
                     <div className='lg:w-[544px] text-[20px] lg:text-2xl'>
                         <p className='mb-7 text-[#677187]'>
-                            "At Sanit, we believe a true 'solution' goes beyond a product or service it's built on quality, innovation, and impact. Since 2010, our team has grown from just three to over 70 dedicated professionals, all united by a shared vision and unwavering core values.
+                            &quot;At Sanit, we believe a true &apos;solution&apos; goes beyond a product or service it&apos;s built on quality, innovation, and impact. Since 2010, our team has grown from just three to over 70 dedicated professionals, all united by a shared vision and unwavering core values.
                         </p>
                         <p className='mb-7 text-[#677187]'>
-                            Over 14 years, we've consistently helped clients to grow by delivering forward thinking, reliable solutions. Our commitment has earned us recognition, awards, and most importantly the trust of those we serve.
+                            Over 14 years, we&apos;ve consistently helped clients to grow by delivering forward thinking, reliable solutions. Our commitment has earned us recognition, awards, and most importantly the trust of those we serve.
                         </p>
                         <p className='text-[#677187]'>
-                            Trust remains as our greatest strength."
+                            Trust remains as our greatest strength.&quot;
                         </p>
                     </div>
                 </div>
