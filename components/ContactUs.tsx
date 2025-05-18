@@ -3,7 +3,7 @@ import PrimaryButton from "./PrimaryButton"
 
 const ContactUs = () => {
     return (
-        <section className="lg:py-44 py-8 relative">
+        <section className="lg:py-44 lg:pt-20 py-8 relative">
             <ParticlesClientWrapper className="right-0 top-0 mask-l-from-0% mask-b-from-20% mask-t-from-80%" />
             <div className="container">
                 <h1 className="lg:max-w-4xl mb-6 text-[44px] lg:text-[72px]"><span>Have questions?</span><br />

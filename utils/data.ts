@@ -6,54 +6,82 @@ export const navLinks: NavItems[] = [
         href: "/",
     },
     {
-        label: "Services",
+        label: "About Us",
+        href: "/about",
+    },
+    {
+        label: "Solutions",
         children: [
             {
-                label: "Network Solutions",
+                label: "Network Infrastructure Solutions",
                 href: "/services/network-solutions"
-            },
-            {
-                label: "PABX Systems",
-                href: "/services/pabx-systems"
             },
             {
                 label: "Wi-Fi Solutions",
                 href: "/services/wifi-solutions"
             },
             {
+                label: "IPTV Solutions",
+                href: "/services/iptv-solutions"
+            },
+            {
                 label: "Firewall Solutions",
                 href: "/services/firewall-solutions"
+            },
+            {
+                label: "PABX Solutions",
+                href: "/services/pabx-systems"
+            },
+            {
+                label: "CCTV Camera Solutions",
+                href: "/services/cctv-solutions"
+            },
+            {
+                label: "SD-WAN Solutions",
+                href: "/services/sdwan-solutions"
+            },
+            {
+                label: "Fiber Optic Solutions",
+                href: "/services/fiber-solutions"
+            },
+            {
+                label: "PA Systems",
+                href: "/services/pa-solutions"
+            },
+            {
+                label: "Security Access Solutions Systems",
+                href: "/services/security-solutions"
             }
         ]
     },
+    // {
+    //     label: "Products",
+    //     children: [
+    //         {
+    //             label: "Network Equipment",
+    //             href: "/products/network-equipment"
+    //         },
+    //         {
+    //             label: "Communication Devices",
+    //             href: "/products/communication-devices"
+    //         },
+    //         {
+    //             label: "Wireless Solutions",
+    //             href: "/products/wireless-solutions"
+    //         },
+    //         {
+    //             label: "Security Appliances",
+    //             href: "/products/security-appliances"
+    //         }
+    //     ]
+    // },
     {
-        label: "Products",
-        children: [
-            {
-                label: "Network Equipment",
-                href: "/products/network-equipment"
-            },
-            {
-                label: "Communication Devices",
-                href: "/products/communication-devices"
-            },
-            {
-                label: "Wireless Solutions",
-                href: "/products/wireless-solutions"
-            },
-            {
-                label: "Security Appliances",
-                href: "/products/security-appliances"
-            }
-        ]
+        label: "Next in Line",
+        href: "/next",
     },
     {
         label: "Contact Us",
         href: "/contact",
-    },
-    {
-        label: "About Us",
-        href: "/about",
     }
 ]
 
@@ -61,8 +89,8 @@ export const serviceDetails: ServicePageDetails[] = [
     {
         pageUrl: "/network-solutions",
         pageDetails: {
-            heading: "Network Solutions",
-            description: "We offer end-to-end network infrastructure solutions to keep your business connected at all times.",
+            heading: "Network Infrastructure Solutions",
+            description: "Enable communication and connectivity within your organization ensuring secure, reliable, and efficient data transmission, scalability, and high availability for users and devices across the network.",
             videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
             cardDetails: [
                 {
@@ -84,7 +112,7 @@ export const serviceDetails: ServicePageDetails[] = [
         pageUrl: "/pabx-systems",
         pageDetails: {
             heading: "PABX Systems",
-            description: "Our Private Automatic Branch Exchange (PABX) systems help businesses enhance communication through",
+            description: "Manage internal and external calls within an organization by connecting multiple phone lines, route calls, provide extensions, and enable features such as call forwarding, voicemail, and conference calling.",
             videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
             cardDetails: [
                 {
@@ -106,7 +134,29 @@ export const serviceDetails: ServicePageDetails[] = [
         pageUrl: "/wifi-solutions",
         pageDetails: {
             heading: "Wi-Fi Solutions",
-            description: "We provide customized wireless networking solutions to improve coverage, speed, and security for businesses and public spaces.",
+            description: "Wireless internet connectivity enabling seamless and reliable internet access ensuring strong signal coverage, security, and easy network management.",
+            videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
+            cardDetails: [
+                {
+                    cardDescription: "Enterprise Wi-Fi Networks",
+                    cardImage: "/services/enterprise-wifi.webp"
+                },
+                {
+                    cardDescription: "Mesh Wi-Fi & Hotspot Solutions",
+                    cardImage: "/services/mesh-wifi.webp"
+                },
+                {
+                    cardDescription: "Bandwidth Optimization & Access Control",
+                    cardImage: "/services/bandwidth.webp"
+                }
+            ]
+        }
+    },
+    {
+        pageUrl: "/iptv-solutions",
+        pageDetails: {
+            heading: "IPTV Solutions",
+            description: "Delivering television contents over IP networks, providing users with on-demand and live streaming services. Set-top boxes, streaming servers, and software manage and deliver high-quality video content to TVs, computers, and mobile devices.",
             videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
             cardDetails: [
                 {
@@ -128,7 +178,117 @@ export const serviceDetails: ServicePageDetails[] = [
         pageUrl: "/firewall-solutions",
         pageDetails: {
             heading: "Firewall Solutions",
-            description: "Protect your business from cyber threats with next-generation firewall security solutions.",
+            description: "Protect networks against modern cyber threats using combine advanced security features such as deep packet inspection, intrusion prevention, and application controls.",
+            videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
+            cardDetails: [
+                {
+                    cardDescription: "Enterprise-Grade Firewalls for intrusion prevention",
+                    cardImage: "/services/firewall.webp"
+                },
+                {
+                    cardDescription: "VPN Setup for secure remote access",
+                    cardImage: "/services/vpn.webp"
+                },
+                {
+                    cardDescription: "Cybersecurity Audits & Compliance Services",
+                    cardImage: "/services/audits.webp"
+                }
+            ]
+        }
+    },
+    {
+        pageUrl: "/cctv-solutions",
+        pageDetails: {
+            heading: "CCTV Camera Solutions",
+            description: "Provide high-quality video surveillance with remote monitoring and advanced features like motion detection and cloud access",
+            videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
+            cardDetails: [
+                {
+                    cardDescription: "Enterprise-Grade Firewalls for intrusion prevention",
+                    cardImage: "/services/firewall.webp"
+                },
+                {
+                    cardDescription: "VPN Setup for secure remote access",
+                    cardImage: "/services/vpn.webp"
+                },
+                {
+                    cardDescription: "Cybersecurity Audits & Compliance Services",
+                    cardImage: "/services/audits.webp"
+                }
+            ]
+        }
+    },
+    {
+        pageUrl: "/sdwan-solutions",
+        pageDetails: {
+            heading: "SD-WAN Solutions",
+            description: "Uses software to optimize, route and control traffic across multiple internet base connections, improving performance, security, and reducing costs.",
+            videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
+            cardDetails: [
+                {
+                    cardDescription: "Enterprise-Grade Firewalls for intrusion prevention",
+                    cardImage: "/services/firewall.webp"
+                },
+                {
+                    cardDescription: "VPN Setup for secure remote access",
+                    cardImage: "/services/vpn.webp"
+                },
+                {
+                    cardDescription: "Cybersecurity Audits & Compliance Services",
+                    cardImage: "/services/audits.webp"
+                }
+            ]
+        }
+    },
+    {
+        pageUrl: "/fiber-solutions",
+        pageDetails: {
+            heading: "Fiber Optic Solutions",
+            description: "Se up long-distance and high-performance data networking for telecommunication services, such as internet, television and telephones.",
+            videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
+            cardDetails: [
+                {
+                    cardDescription: "Enterprise-Grade Firewalls for intrusion prevention",
+                    cardImage: "/services/firewall.webp"
+                },
+                {
+                    cardDescription: "VPN Setup for secure remote access",
+                    cardImage: "/services/vpn.webp"
+                },
+                {
+                    cardDescription: "Cybersecurity Audits & Compliance Services",
+                    cardImage: "/services/audits.webp"
+                }
+            ]
+        }
+    },
+    {
+        pageUrl: "/pa-solutions",
+        pageDetails: {
+            heading: "PA Systems",
+            description: "Amplify and distribute announcements, alerts, or background music in public spaces.",
+            videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
+            cardDetails: [
+                {
+                    cardDescription: "Enterprise-Grade Firewalls for intrusion prevention",
+                    cardImage: "/services/firewall.webp"
+                },
+                {
+                    cardDescription: "VPN Setup for secure remote access",
+                    cardImage: "/services/vpn.webp"
+                },
+                {
+                    cardDescription: "Cybersecurity Audits & Compliance Services",
+                    cardImage: "/services/audits.webp"
+                }
+            ]
+        }
+    },
+    {
+        pageUrl: "/security-solutions",
+        pageDetails: {
+            heading: "Security Access Solutions Systems",
+            description: "Ensure that only authorized individuals can access certain sensitive areas enhancing security by monitoring using technologies such as key cards, biometric scanners, and digital locks.",
             videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
             cardDetails: [
                 {

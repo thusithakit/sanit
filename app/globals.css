@@ -286,7 +286,7 @@
     @apply absolute left-3 top-[95%] flex-col border border-[#E5EDFF] shadow-md shadow-[#E5EDFF] group-hover:text-[#323E59] w-max;
   }
   .sublinks .sublink {
-    @apply relative block w-full text-[#323E59] py-5 px-6 bg-white hover:bg-[#F0F5FF];
+    @apply relative block w-full text-[#323E59] py-3 px-6 bg-white hover:bg-[#F0F5FF];
   }
 
   .common-header-title {

@@ -3,15 +3,14 @@ import Image from "next/image"
 
 
 const CommonHeader = ({ data }: { data: CommonCardProps }) => {
-    const { heading, description, videoUrl, cardDetails } = data;
+    const { heading, description, cardDetails } = data;
     return (
         <div className="bg-gradient-to-b from-[#F0F5FD] to-90%-white">
             <div className="container">
                 <div className="lg:pt-32 flex items-center justify-start lg:gap-4 lg:mb-8 pt-2 flex-col lg:flex-row gap-7 mb-5">
-                    <h2 className="text-[#92ABD6] lg:text-[72px] lg:w-xl common-header-title text-[52px]">{heading}</h2>
+                    <h2 className="text-[#92ABD6] lg:text-[65px] lg:w-xl common-header-title text-[52px]">{heading}</h2>
                     <p className="text-[#323E59] lg:text-2xl lg:w-[544px] text-[20px]">{description}</p>
                 </div>
-                {videoUrl && <iframe src={videoUrl} allowFullScreen width={1120} height={600} className="border border-[#E5EDFF] w-full h-[300px] lg:h-[600px]" />}
                 <div className="grid auto-grid">
                     {cardDetails && cardDetails.map((card, i) => (
                         <div key={i} className="border border-[#E5EDFF] rounded-sm px-6 pt-6 pb-8 bg-white">

@@ -55,7 +55,7 @@ export default function Home() {
       <section className="bg-white">
         <div className="container border border-[#E0EAFF] border-l-0 border-r-0 flex justify-center items-center flex-wrap lg:flex-nowrap w-fit">
           <Card cardTitle="Enterprise Solutions" cardContent="Weather you are SME or Enterprise, Government or BFSI, we have the solution for your IT needs." icon={<BsFillBuildingsFill size={65} />} />
-          <Card className="border border-[#E0EAFF] border-x-0 lg:border-x lg:border-t-0 lg:border-b-0" cardTitle="Managed Services" cardContent="Agile & Flexible approach to manage your IT infrastructure seamlessly. Discuss with our sales team now." icon={<BsDatabaseFillGear size={65} />} />
+          <Card className="border border-[#E0EAFF] border-x-0 lg:border-x lg:border-t-0 lg:border-b-0 hover:bg-[#4e5d80]" cardTitle="Managed Services" cardContent="Agile & Flexible approach to manage your IT infrastructure seamlessly. Discuss with our sales team now." icon={<BsDatabaseFillGear size={65} />} />
           <Card cardTitle="IT Consultancy" cardContent="We have the expertise to help you define a game plan, to overcome any IT related support you required." icon={<BsFillLightbulbFill size={65} />} />
         </div>
       </section>
