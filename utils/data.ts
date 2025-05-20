@@ -51,6 +51,10 @@ export const navLinks: NavItems[] = [
             {
                 label: "Security Access Solutions Systems",
                 href: "/services/security-solutions"
+            },
+            {
+                label: "Next in Line",
+                href: "/next",
             }
         ]
     },
@@ -75,10 +79,10 @@ export const navLinks: NavItems[] = [
     //         }
     //     ]
     // },
-    {
-        label: "Next in Line",
-        href: "/next",
-    },
+    // {
+    //     label: "Next in Line",
+    //     href: "/next",
+    // },
     {
         label: "Contact Us",
         href: "/contact",

@@ -6,20 +6,32 @@ const page = () => {
     const nextPageDetails = {
         pageDetails: {
             heading: "Next in Line",
-            description: "",
+            description: "Backed by proven expertise and driven by innovation something powerful is launching soon",
             videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
             cardDetails: [
                 {
-                    cardDescription: "Structured Cabling for seamless data transmission",
-                    cardImage: "/services/cabling.webp"
+                    cardDescription: "Guest Engagement Platform",
                 },
                 {
-                    cardDescription: "LAN & WAN Setup for high-speed connectivity",
-                    cardImage: "/services/lan.webp"
+                    cardDescription: "Guest Engagement Platform",
                 },
                 {
-                    cardDescription: "Network Maintenance & Troubleshooting to ensure uninterrupted operations",
-                    cardImage: "/services/maintenance.webp"
+                    cardDescription: "Integrated Booking & Channel Manager",
+                },
+                {
+                    cardDescription: "AI-Powered Customer Service Platforms (e.g., GPT-integrated chatbots)",
+                },
+                {
+                    cardDescription: "Smart Manufacturing Platforms / Industrial IoT (IIoT) Systems",
+                },
+                {
+                    cardDescription: "Digital Health & Telemedicine Platforms",
+                },
+                {
+                    cardDescription: "AgriTech Platforms (Precision Farming Software)",
+                },
+                {
+                    cardDescription: "ESG & Sustainability Management Software (Environmental, Social, and Governance)",
                 }
             ]
         }
