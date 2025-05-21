@@ -75,10 +75,10 @@ export const navLinks: NavItems[] = [
     //         }
     //     ]
     // },
-    {
-        label: "Next in Line",
-        href: "/next",
-    },
+    // {
+    //     label: "Next in Line",
+    //     href: "/next",
+    // },
     {
         label: "Contact Us",
         href: "/contact",
