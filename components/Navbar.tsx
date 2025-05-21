@@ -68,7 +68,7 @@ const Navbar = () => {
                         ))}
                     </nav>
                 </div>
-                <span className="flex items-center justify-center lg:hidden border border-[#D7E2F5] rounded-full py-4 px-6 gap-3 cursor-pointer bg-white" onClick={() => setIsMobileNavOpen((prev) => !prev)}>
+                <span className="flex items-center justify-center lg:hidden border border-[#D7E2F5] rounded-full py-2 px-6 gap-3 cursor-pointer bg-white" onClick={() => setIsMobileNavOpen((prev) => !prev)}>
                     <MenuIcon color="#304E7E" />
                     <h2 className="text-sm text-[#304E7E]">Menu</h2>
                 </span>
@@ -87,16 +87,16 @@ const MobileNavBar = ({ setIsMobileNavOpen, isActive }: { setIsMobileNavOpen: Re
         <div className="absolute top-0 left-0 w-full h-[100dvh] bg-white z-50 transition-all duration-300 overflow-hidden">
             <div className="container no-border flex justify-between items-center">
                 <Link href="/" className="py-3">
-                    <Image src={logo} alt="Logo" width={120} />
+                    <Image src={logo} alt="Logo" width={150} />
                 </Link>
-                <span className="flex items-center justify-center lg:hidden border border-[#D7E2F5] rounded-full py-4 px-6 gap-3 cursor-pointer bg-white" onClick={() => setIsMobileNavOpen((prev) => !prev)}>
+                <span className="flex items-center justify-center lg:hidden border border-[#D7E2F5] rounded-full py-2 px-6 gap-3 cursor-pointer bg-white" onClick={() => setIsMobileNavOpen((prev) => !prev)}>
                     <X color="#304E7E" />
                     <h2 className="text-sm text-[#304E7E]">Close</h2>
                 </span>
             </div>
             <nav className="relative w-full pt-12">
                 {navLinks.map((navLink, i) => (
-                    <div key={i} className="p-6">
+                    <div key={i} className="py-3 px-6">
                         {navLink.href ? (
                             <Link href={navLink.href} className={`${isActive(navLink.href) ? 'active' : ''} text-2xl`} onClick={() => setIsMobileNavOpen(false)}>{navLink.label}</Link>
                         ) : (
@@ -108,7 +108,7 @@ const MobileNavBar = ({ setIsMobileNavOpen, isActive }: { setIsMobileNavOpen: Re
                         {navLink.children && (openSubMenu === i) && (
                             <div className="transition-all duration-300 grid">
                                 {navLink.children.map((child, j) => (
-                                    <Link href={child.href || "/"} key={j} onClick={() => setIsMobileNavOpen(false)} className="py-3.5 text-[16px] text-[#677187]">{child.label}</Link>
+                                    <Link href={child.href || "/"} key={j} onClick={() => setIsMobileNavOpen(false)} className="py-2.5 text-[16px] text-[#677187]">{child.label}</Link>
                                 ))}
                             </div>
                         )}

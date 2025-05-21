@@ -16,7 +16,7 @@ const CarouselCard = () => {
             }}
             plugins={[
                 Autoplay(
-                    { delay: 3500, stopOnMouseEnter: true }
+                    { delay: 3500, stopOnInteraction: false,stopOnMouseEnter: true }
                 ),
             ]}
             orientation="vertical"

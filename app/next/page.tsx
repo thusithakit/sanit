@@ -10,28 +10,13 @@ const page = () => {
             videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
             cardDetails: [
                 {
-                    cardDescription: "Guest Engagement Platform",
-                },
-                {
-                    cardDescription: "Guest Engagement Platform",
-                },
-                {
                     cardDescription: "Integrated Booking & Channel Manager",
                 },
                 {
                     cardDescription: "AI-Powered Customer Service Platforms (e.g., GPT-integrated chatbots)",
                 },
                 {
-                    cardDescription: "Smart Manufacturing Platforms / Industrial IoT (IIoT) Systems",
-                },
-                {
                     cardDescription: "Digital Health & Telemedicine Platforms",
-                },
-                {
-                    cardDescription: "AgriTech Platforms (Precision Farming Software)",
-                },
-                {
-                    cardDescription: "ESG & Sustainability Management Software (Environmental, Social, and Governance)",
                 }
             ]
         }

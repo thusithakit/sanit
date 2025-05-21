@@ -24,7 +24,7 @@ export default function Home() {
         <div className="container hero flex justify-between lg:h-[880px] lg:w-[1100px] mx-auto w-full h-auto">
           <div className=" flex flex-col justify-center">
             <h1 className="max-w-[544px] lg:mb-5 w-full mb-6">
-              Ensuring Your <span>Connectivity</span>
+              Ensure Your <span>Connectivity</span>
             </h1>
             <p className="max-w-[500px] text-[20px] lg:mb-10 lg:text-2xl text-[#677187] mb-4">
               &quot;Integrated Solutions, Trusted Partnership.&quot;
@@ -70,14 +70,14 @@ export default function Home() {
       </section>
       <DigitalSolutionsSection />
       <DigitalProductsSection />
-      <section className="relative bg-linear-to-t from-[#F0F5FD] from-80% to-white lg:pt-16 mask-b-from-70%">
+      <section className="relative bg-linear-to-t from-[#F0F5FD] from-95% to-white lg:pt-16 mask-b-from-70%">
         <ParticlesClientWrapper className="left-0 top-0 mask-r-from-0% z-0" />
         <div className="container no-border flex flex-col-reverse lg:flex-row justify-center lg:justify-start items-center gap-10">
-          <Image src="/ensure.webp" alt="Ensuring Your Connectivity" width={523} height={554} className="bottom-0 left-0 z-10 block relative" />
-          <div>
+          <Image src="/ensure.webp" alt="Ensure Your Connectivity" width={523} height={554} className="bottom-0 left-0 z-10 block relative" />
+          <div className="lg:pb-20">
             <Badge variant="outline" className="text-xs text-[#323E59] font-normal py-2.5 px-4 rounded-[100px]">14+ Years of Experience</Badge>
             <h1 className="lg:w-[560px] mb-2">We&apos;re Just a <span>Message</span> Away!</h1>
-            <p className="text-[20px] lg:text-2xl text-[#677187] lg:mb-9">Connect with us</p>
+            <p className="text-[20px] lg:text-2xl text-[#677187] my-4 lg:mt-5 mb-9">Connect with us</p>
             <PrimaryButton href="/contact" classes="bg-white mb-4 border border-[#D7E2F5] hover:bg-[#304E7E] hover:text-white">
               Contact Us
             </PrimaryButton>

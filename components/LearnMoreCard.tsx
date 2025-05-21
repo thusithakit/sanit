@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { ReactElement, useState } from "react";
 
-const LearnMoreCard = ({ cardTitle, cardContent, href, className, icon, itemClass }: { cardTitle: string, cardContent: string, href: string, className?: string, icon?: React.ReactNode, itemClass?: string }) => {
+const LearnMoreCard = ({ cardTitle, cardContent, href, className, icon, itemClass }: { cardTitle: string, cardContent: string, href?: string, className?: string, icon?: React.ReactNode, itemClass?: string }) => {
     const [isHovering, setIsHovered] = useState(false);
     const onMouseEnter = () => setIsHovered(true);
     const onMouseLeave = () => setIsHovered(false);
@@ -24,7 +24,7 @@ const LearnMoreCard = ({ cardTitle, cardContent, href, className, icon, itemClas
             </span>
             <h2 className="text-[28px] text-[#323E59] mb-2.5 group-hover:text-white ease-in-out duration-300">{cardTitle}</h2>
             <p className="text-[#677187] text-18px group-hover:text-white ease-in-out duration-300 mb-6">{cardContent}</p>
-            <Link href={href} className={`py-4 px-6 border border-[##E0EAFF] rounded-[100px] text-[#323E59] font-[600] block w-fit group-hover:bg-white group-hover:text-[#0C5ADB] ease-in-out duration-300 mb-6 ${itemClass}`}>Learn More</Link>
+            {href && <Link href={href} className={`py-4 px-6 border border-[##E0EAFF] rounded-[100px] text-[#323E59] font-[600] block w-fit group-hover:bg-white group-hover:text-[#0C5ADB] ease-in-out duration-300 mb-6 ${itemClass}`}>Learn More</Link>}
         </div>
     )
 }

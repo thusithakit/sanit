@@ -14,24 +14,20 @@ const Footer = () => {
                         <Image src={logo} alt="Logo" width={200} />
                     </Link>
                     <div className='lg:mb-24'>
-                        <div className='grid lg:grid-cols-3 gap-8 lg:gap-14 mb-16'>
+                        <div className='grid lg:grid-cols-2 gap-8 lg:gap-14 mb-16'>
                             <div className='flex flex-col gap-6'>
                                 <Link href='/contact' className='footer-link'><h3>Contact Us</h3></Link>
                                 <Link href='/about' className='footer-link'><h3>About Us</h3></Link>
+                                <Link href='/next' className='footer-link'><h3>Next in Line</h3></Link>
                             </div>
                             <div className='flex flex-col gap-6'>
-                                <h3>Services</h3>
-                                <Link href='/services/network-solutions' className='footer-link'><p>Network Solutions</p></Link>
-                                <Link href='/services/pabx-systems' className='footer-link'><p>PABX Systems</p></Link>
+                                <h3>Solutions</h3>
+                                <Link href='/services/network-solutions' className='footer-link'><p>Network Infrastructure Solutions</p></Link>
                                 <Link href='/services/wifi-solutions' className='footer-link'><p>Wi-Fi Solutions</p></Link>
+                                <Link href='/services/iptv-solutions' className='footer-link'><p>IPTV Solutions</p></Link>
                                 <Link href='/services/firewall-solutions' className='footer-link'><p>Firewall Solutions</p></Link>
-                            </div>
-                            <div className="flex flex-col gap-6">
-                                <h3>Products</h3>
-                                <Link href='/products/network-equipment' className='footer-link'><p>Network Equipment</p></Link>
-                                <Link href='/products/communication-devices' className='footer-link'><p>Communication Devices</p></Link>
-                                <Link href='/products/wireless-solutions' className='footer-link'><p>Wireless Solutions</p></Link>
-                                <Link href='/products/security-appliances' className='footer-link'><p>Security Appliances</p></Link>
+                                <Link href='/services/pabx-systems' className='footer-link'><p>PABX Solutions</p></Link>
+                                <Link href='/services/sdwan-solutions' className='footer-link'><p>SD-WAN Solutions</p></Link>
                             </div>
                         </div>
                         <h1 className='border border-t-0 border-x-0 border-b-[#E0EAFF]'>Get In <span>Touch</span></h1>
