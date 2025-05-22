@@ -84,7 +84,7 @@ const MobileNavBar = ({ setIsMobileNavOpen, isActive }: { setIsMobileNavOpen: Re
         setOpenSubMenu(openSubMenu === index ? null : index);
     };
     return (
-        <div className="absolute top-0 left-0 w-full h-[100dvh] bg-white z-50 transition-all duration-300 overflow-hidden">
+        <div className="absolute top-0 left-0 w-full h-fit min-h-[100dvh] bg-white z-50 transition-all duration-300 overflow-x-hidden overflow-auto">
             <div className="container no-border flex justify-between items-center">
                 <Link href="/" className="py-3">
                     <Image src={logo} alt="Logo" width={150} />
@@ -96,9 +96,9 @@ const MobileNavBar = ({ setIsMobileNavOpen, isActive }: { setIsMobileNavOpen: Re
             </div>
             <nav className="relative w-full pt-12">
                 {navLinks.map((navLink, i) => (
-                    <div key={i} className="py-3 px-6">
+                    <div key={i} className="py-2 px-6">
                         {navLink.href ? (
-                            <Link href={navLink.href} className={`${isActive(navLink.href) ? 'active' : ''} text-2xl`} onClick={() => setIsMobileNavOpen(false)}>{navLink.label}</Link>
+                            <Link href={navLink.href} className={`${isActive(navLink.href) ? 'active' : ''} text-[20px]`} onClick={() => setIsMobileNavOpen(false)}>{navLink.label}</Link>
                         ) : (
                             <span onClick={() => toggleSubMenu(i)} className="flex items-center justify-between gap-5 text-2xl">
                                 <p className={`${isActive((navLink.children && ("/" + navLink.children[0].href?.split("/")[1]))) ? 'active' : ''}`}>{navLink.label}</p>

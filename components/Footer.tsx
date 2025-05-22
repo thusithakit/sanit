@@ -18,7 +18,7 @@ const Footer = () => {
                             <div className='flex flex-col gap-6'>
                                 <Link href='/contact' className='footer-link'><h3>Contact Us</h3></Link>
                                 <Link href='/about' className='footer-link'><h3>About Us</h3></Link>
-                                <Link href='/next' className='footer-link'><h3>Next in Line</h3></Link>
+                                {/* <Link href='/next' className='footer-link'><h3>Next in Line</h3></Link> */}
                             </div>
                             <div className='flex flex-col gap-6'>
                                 <h3>Solutions</h3>
