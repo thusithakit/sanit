@@ -16,8 +16,7 @@ const page = () => {
                         <p className='lg:text-[24px] text-[20px] mb-4 lg:w-sm'>Contact us today and let’s discuss how we can help your business</p>
                         <div className='lg:text-[18px] pb-7 border border-[#E0EAFF] border-x-0 border-t-0 mb-5'>
                             <p className='mb-4'>Email:&nbsp;info@sanit.lk</p>
-                            <p className='mb-4'>Phone:&nbsp;+94 11 2 772 222</p>
-                            <p>FAX:&nbsp;+94 11 2 772 222</p>
+                            <p className='mb-4'>Phone:&nbsp;+94 11 2224 424 or +94 11 2772 222</p>
                         </div>
                         <div>
                             <h2 className='text-[20px] lg:text-2xl mb-6'>Our Branches:</h2>

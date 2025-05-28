@@ -1,4 +1,4 @@
-import { BranchDetails, NavItems, ProductPageDetails, ServicePageDetails, SocailMediaLinks, TeamMemberDetails } from "./types";
+import { BranchDetails, NavItems, ServicePageDetails, SocailMediaLinks, TeamMemberDetails } from "./types";
 
 export const navLinks: NavItems[] = [
     {
@@ -54,31 +54,6 @@ export const navLinks: NavItems[] = [
             }
         ]
     },
-    // {
-    //     label: "Products",
-    //     children: [
-    //         {
-    //             label: "Network Equipment",
-    //             href: "/products/network-equipment"
-    //         },
-    //         {
-    //             label: "Communication Devices",
-    //             href: "/products/communication-devices"
-    //         },
-    //         {
-    //             label: "Wireless Solutions",
-    //             href: "/products/wireless-solutions"
-    //         },
-    //         {
-    //             label: "Security Appliances",
-    //             href: "/products/security-appliances"
-    //         }
-    //     ]
-    // },
-    // {
-    //     label: "Next in Line",
-    //     href: "/next",
-    // },
     {
         label: "Contact Us",
         href: "/contact",
@@ -105,7 +80,8 @@ export const serviceDetails: ServicePageDetails[] = [
                     cardDescription: "Network Maintenance & Troubleshooting to ensure uninterrupted operations",
                     cardImage: "/services/maintenance.webp"
                 }
-            ]
+            ],
+            contact:"Contact us today to discuss how our network infrastructure Solutions can empower your business to thrive in a connected world."
         }
     },
     {
@@ -127,7 +103,8 @@ export const serviceDetails: ServicePageDetails[] = [
                     cardDescription: "Call Routing & Voicemail Integration",
                     cardImage: "/services/call-routing.webp"
                 }
-            ]
+            ],
+            contact:"Start the conversation with us to explore how our PABX Solutions can enhance your communication systems and help your business thrive in a connected world."
         }
     },
     {
@@ -149,7 +126,8 @@ export const serviceDetails: ServicePageDetails[] = [
                     cardDescription: "Bandwidth Optimization & Access Control",
                     cardImage: "/services/bandwidth.webp"
                 }
-            ]
+            ],
+            contact:"Get in touch with us today to explore how our advanced WiFi Solutions can help your business thrive in a seamlessly connected world."
         }
     },
     {
@@ -171,7 +149,8 @@ export const serviceDetails: ServicePageDetails[] = [
                     cardDescription: "Bandwidth Optimization & Access Control",
                     cardImage: "/services/bandwidth.webp"
                 }
-            ]
+            ],
+            contact:"Reach out to our team to discover how our IPTV solutions can elevate your guest experience and help your business thrive in a connected world."
         }
     },
     {
@@ -193,7 +172,8 @@ export const serviceDetails: ServicePageDetails[] = [
                     cardDescription: "Cybersecurity Audits & Compliance Services",
                     cardImage: "/services/audits.webp"
                 }
-            ]
+            ],
+            contact:"Let’s connect to discuss your needs to learn how our advanced Firewall Solutions can safeguard your network and help your business thrive in a connected world."
         }
     },
     {
@@ -215,7 +195,8 @@ export const serviceDetails: ServicePageDetails[] = [
                     cardDescription: "Cybersecurity Audits & Compliance Services",
                     cardImage: "/services/audits.webp"
                 }
-            ]
+            ],
+            contact:"Schedule a consultation today to explore how our CCTV Camera Solutions can strengthen your security and help your business thrive in a connected world."
         }
     },
     {
@@ -237,7 +218,8 @@ export const serviceDetails: ServicePageDetails[] = [
                     cardDescription: "Cybersecurity Audits & Compliance Services",
                     cardImage: "/services/audits.webp"
                 }
-            ]
+            ],
+            contact:"Talk to our experts today to explore how our SD WAN Solutions can strengthen your security and help your business thrive in a connected world."
         }
     },
     {
@@ -259,7 +241,8 @@ export const serviceDetails: ServicePageDetails[] = [
                     cardDescription: "Cybersecurity Audits & Compliance Services",
                     cardImage: "/services/audits.webp"
                 }
-            ]
+            ],
+            contact:"Discover what we can do for you to explore how our Fiber Optic Solutions can boost your connectivity and help your business thrive in a connected world."
         }
     },
     {
@@ -281,7 +264,8 @@ export const serviceDetails: ServicePageDetails[] = [
                     cardDescription: "Cybersecurity Audits & Compliance Services",
                     cardImage: "/services/audits.webp"
                 }
-            ]
+            ],
+            contact:"Request a customized solution to discover how our PA System can improve communication and support your business in a connected world."
         }
     },
     {
@@ -303,93 +287,12 @@ export const serviceDetails: ServicePageDetails[] = [
                     cardDescription: "Cybersecurity Audits & Compliance Services",
                     cardImage: "/services/audits.webp"
                 }
-            ]
+            ],
+            contact:"Partner with us for smarter solutions to learn how our Security Access System Solutions can enhance your premises' safety and help your business thrive in a connected world."
         }
     },
 ]
 
-export const productDetails: ProductPageDetails[] = [
-    {
-        pageUrl: "/network-equipment",
-        pageDetails: {
-            heading: "Network Equipment",
-            description: "Enhance your IT infrastructure with our range of networking hardware.",
-            videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
-            cardDetails: [
-                {
-                    cardTitle: "Routers",
-                    cardDescription: "High performance networking for home and business",
-                    cardImage: "/products/routers.webp"
-                },
-                {
-                    cardTitle: "Switches",
-                    cardDescription: "Managed and unmanaged switches for seamless connectivity",
-                    cardImage: "/products/routers.webp"
-                }
-            ]
-        }
-    },
-    {
-        pageUrl: "/communication-devices",
-        pageDetails: {
-            heading: "Communication Devices",
-            description: "Upgrade your office communication with our reliable telephony devices.",
-            videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
-            cardDetails: [
-                {
-                    cardTitle: "IP Phones",
-                    cardDescription: "Feature-rich VoIP communication",
-                    cardImage: "/products/ip-phones.webp"
-                },
-                {
-                    cardTitle: "Analog Phones",
-                    cardDescription: "Classic landline solutions for businesses",
-                    cardImage: "/products/analog-phones.webp"
-                }
-            ]
-        }
-    },
-    {
-        pageUrl: "/wireless-solutions",
-        pageDetails: {
-            heading: "Wireless Solutions",
-            description: "Boost your wireless coverage with top-quality Wi-Fi devices.",
-            videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
-            cardDetails: [
-                {
-                    cardTitle: "Access Points",
-                    cardDescription: "Expand Wi-Fi coverage across large areas",
-                    cardImage: "/products/access-point.webp"
-                },
-                {
-                    cardTitle: "Repeaters",
-                    cardDescription: "Strengthen weak signals for uninterrupted connectivity",
-                    cardImage: "/products/access-point.webp"
-                }
-            ]
-        }
-    },
-    {
-        pageUrl: "/security-appliances",
-        pageDetails: {
-            heading: "Security Appliances",
-            description: "Protect your digital assets with our advanced security solutions.",
-            videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
-            cardDetails: [
-                {
-                    cardTitle: "Firewalls",
-                    cardDescription: "Secure your network from cyber threats",
-                    cardImage: "/products/vpn-routers.webp"
-                },
-                {
-                    cardTitle: "VPN Routers",
-                    cardDescription: "Enable secure remote access for businesses",
-                    cardImage: "/products/vpn-routers.webp"
-                }
-            ]
-        }
-    },
-]
 
 export const companySocialMediaLinks: SocailMediaLinks = {
     facebook: "/",

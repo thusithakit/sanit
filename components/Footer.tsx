@@ -28,13 +28,17 @@ const Footer = () => {
                                 <Link href='/services/firewall-solutions' className='footer-link'><p>Firewall Solutions</p></Link>
                                 <Link href='/services/pabx-systems' className='footer-link'><p>PABX Solutions</p></Link>
                                 <Link href='/services/sdwan-solutions' className='footer-link'><p>SD-WAN Solutions</p></Link>
+                                <Link href='/services/cctv-solutions' className='footer-link'><p>CCTV Camera Solutions</p></Link>
+                                <Link href='/services/fiber-solutions' className='footer-link'><p>Fiber Optic Solutions</p></Link>
+                                <Link href='/services/pa-solutions' className='footer-link'><p>PA Systems</p></Link>
+                                <Link href='/services/security-solutions' className='footer-link'><p>Security Access Solutions Systems</p></Link>
                             </div>
                         </div>
                         <h1 className='border border-t-0 border-x-0 border-b-[#E0EAFF]'>Get In <span>Touch</span></h1>
                         <div className='flex justify-between flex-col lg:flex-row items-start gap-8'>
                             <div className='flex flex-col gap-4 pt-7'>
                                 <a href="mailto:info@sanit.lk" className='footer-link'><p>info@sanit.lk</p></a>
-                                <a href="tel:+94112772222" className='footer-link'><p>+94 11 2 772 222</p></a>
+                                <a href="tel:+94112772222" className='footer-link'><p>+94 11 2224 424 / +94 11 2772 222</p></a>
                                 <address className='footer-link not-italic'><p>No: 32/2A, Udumulla Road, Battaramulla, Sri Lanka.</p></address>
                             </div>
                             <SocialIcons className='mt-4' data={companySocialMediaLinks} />

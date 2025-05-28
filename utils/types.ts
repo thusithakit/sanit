@@ -8,6 +8,7 @@ export type CommonCardProps = {
     heading: string,
     description: string,
     videoUrl?: string,
+    contact?:string,
     cardDetails?: {
         cardTitle?: string,
         cardDescription?: string,

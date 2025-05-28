@@ -12,7 +12,7 @@ const page = async ({ params }: { params: Promise<{ service: string }> }) => {
     return (
         <div className="pt-24">
             <CommonHeader data={serviceData.pageDetails} />
-            <ContactUs />
+            <ContactUs customPara={serviceData.pageDetails.contact} customMid={serviceData.pageDetails.heading}/>
         </div>
     )
 }
