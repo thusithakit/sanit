@@ -302,7 +302,7 @@ export const companySocialMediaLinks: SocailMediaLinks = {
 
 export const branchDetails: BranchDetails[] = [
     {
-        branchName: "SANIT Inventions Head Office & NOC",
+        branchName: "SANIT Inventions Head Office",
         branchAddress: "No: 32/2A, Udumulla Road, Battaramulla",
         branchPhone: "+94112 772 222",
         branchEmail: "info@sanit.lk",
