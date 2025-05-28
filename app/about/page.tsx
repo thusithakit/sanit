@@ -5,15 +5,15 @@ const TeamCarousel = dynamic(() => import('@/components/TeamCarousel'));
 
 const page = () => {
     return (
-        <div className="lg:pt-24 pt-12 bg-gradient-to-b from-[#F0F5FD] to-10%-white">
+        <div className="lg:pt-20 pt-12 bg-gradient-to-b from-[#F0F5FD] to-10%-white">
             <div className="container">
                 <div className="grid lg:grid-cols-2 pb-[60px] lg:py-[156px] border border-x-0 border-t-0 border-b-[#E0EAFF] lg:gap-8 gap-5">
                     <h1 className='lg:w-[544px]'>Company <span>Overview</span></h1>
-                    <div className='lg:w-[544px] text-[20px] lg:text-2xl'>
-                        <p className='mb-7 text-[#677187]'>
+                    <div className='lg:w-[544px] text-[16px] lg:text-[18px]'>
+                        <p className='mb-5 text-[#677187]'>
                             &quot;At Sanit, we believe a true &apos;solution&apos; goes beyond a product or service it&apos;s built on quality, innovation, and impact. Since 2010, our team has grown from just three to over 70 dedicated professionals, all united by a shared vision and unwavering core values.
                         </p>
-                        <p className='mb-7 text-[#677187]'>
+                        <p className='mb-5 text-[#677187]'>
                             Over 14 years, we&apos;ve consistently helped clients to grow by delivering forward thinking, reliable solutions. Our commitment has earned us recognition, awards, and most importantly the trust of those we serve.
                         </p>
                         <p className='text-[#677187]'>

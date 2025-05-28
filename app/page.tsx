@@ -8,6 +8,7 @@ import Image from "next/image";
 import Link from "next/link";
 import HeroImg from "@/public/hero.webp";
 import { BsFillBuildingsFill, BsDatabaseFillGear, BsFillLightbulbFill } from "react-icons/bs";
+import LinkButton from "@/components/LinkButton";
 
 const CarouselCard = dynamic(() => import("@/components/CarouselCard"));
 const Numbers = dynamic(() => import("@/components/Numbers"));
@@ -33,7 +34,7 @@ export default function Home() {
               <PrimaryButton href="/services/network-solutions">
                 Our Services
               </PrimaryButton>
-              <Link href="/about" className="border border-[#D7E2F5] px-5 py-3 rounded-full lg:px-8 lg:py-4 text-[#304E7E] font-[600] text-[18px] lg:rounded-[100px] bg-white hover:bg-[#304E7E] hover:text-white duration-300">Why SANIT?</Link>
+              <LinkButton href="/about" classes="border border-[#D7E2F5] rounded-full text-[#304E7E] font-[600] text-[18px] lg:rounded-[100px] bg-white hover:bg-[#304E7E] hover:text-white duration-300 flex items-center justify-center py-2 pr-2 pl-8 lg:gap-4">Why SANIT</LinkButton>
             </div>
           </div>
           <Image src={HeroImg} width={544} height={800} alt="Hero Imge" className="hidden lg:block" />
@@ -63,7 +64,7 @@ export default function Home() {
         <div className="container py-16 lg:pt-[150px] lg:pb-[126px] flex flex-col justify-center gap-10 lg:justify-between lg:flex-row items-center lg:gap-24">
           <div>
             <h1 className="lg:mb-5 lg:w-[448px]">Why Sanit <span>Stands Out?</span></h1>
-            <p className="text-[#677187] text-[20px] lg:text-2xl lg:w-[410px]">Smooth & Stable Integration – Backed by People Who are Capable of</p>
+            <p className="text-[#677187] text-[20px] lg:text-2xl lg:w-[410px]">Smooth & Stable integration backed by people who are capable of</p>
           </div>
           <CarouselCard />
         </div>

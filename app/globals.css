@@ -246,7 +246,7 @@
 @layer utilities {
 
   .container {
-    @apply lg:w-[1120px] mx-auto relative py-10 px-5 lg:px-0;
+    @apply lg:w-[1120px] mx-auto relative py-8 px-5 lg:px-0;
   }
   .container.no-border {
     @apply py-0;
