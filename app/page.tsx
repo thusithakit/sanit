@@ -5,7 +5,6 @@ import { Badge } from "@/components/ui/badge";
 import { companySocialMediaLinks } from "@/utils/data";
 import dynamic from "next/dynamic";
 import Image from "next/image";
-import Link from "next/link";
 import HeroImg from "@/public/hero.webp";
 import { BsFillBuildingsFill, BsDatabaseFillGear, BsFillLightbulbFill } from "react-icons/bs";
 import LinkButton from "@/components/LinkButton";
