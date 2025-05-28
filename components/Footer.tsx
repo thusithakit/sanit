@@ -38,7 +38,7 @@ const Footer = () => {
                         <div className='flex justify-between flex-col lg:flex-row items-start gap-8'>
                             <div className='flex flex-col gap-4 pt-7'>
                                 <a href="mailto:info@sanit.lk" className='footer-link'><p>info@sanit.lk</p></a>
-                                <a href="tel:+94112772222" className='footer-link'><p>+94 11 2224 424 / +94 11 2772 222</p></a>
+                                <a href="tel:+94112772222" className='footer-link'><p>+94112 224 424 / +94112 772 222</p></a>
                                 <address className='footer-link not-italic'><p>No: 32/2A, Udumulla Road, Battaramulla, Sri Lanka.</p></address>
                             </div>
                             <SocialIcons className='mt-4' data={companySocialMediaLinks} />
