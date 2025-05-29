@@ -12,7 +12,7 @@ const zeroPad = (num:number) => String(num).padStart(2, '0')
     <div className={`flex flex-wrap mx-auto w-fit mb-10 lg:mb-0 ${index % 2 === 0? 'lg:flex-row-reverse':''}`}>
       <Image src={clientDetails.img} alt={clientDetails.title} width={544} height={600} className='object-scale-down'/>
       <div className={`max-w-[544px] flex flex-col justify-center ${index %2 === 0?'lg:pr-[55px]':'lg:pl-[55px]'}`}>
-        <h1 className='text-[#92ABD6] opacity-30 lg:mb-3 mb-1'>{zeroPad(index)}</h1>
+        <h1 className='text-[#92ABD6] opacity-30 lg:mb-3 mb-1 number'>{zeroPad(index)}</h1>
         <h2 className='lg:text-[40px] text-[26px] text-[#92ABD6] lg:mb-[20px] mb-[10px] leading-none'>{clientDetails.title}</h2>
         <p className='text-[#748099] lg:text-[18px] text-[14px] lg:mb-8 mb-2'>{clientDetails.description}</p>
         <div className='grid grid-cols-2 gap-4'>

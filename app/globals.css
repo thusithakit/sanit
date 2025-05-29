@@ -232,6 +232,9 @@
     @apply text-[#0C5ADB];
     font-family: var(--font-bricolage);
   }
+  h1.number {
+    font-family: var(--font-bricolage);
+  }
   header {
     @apply z-50;
   }
