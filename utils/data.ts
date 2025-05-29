@@ -1,4 +1,4 @@
-import { BranchDetails, NavItems, ServicePageDetails, SocailMediaLinks, TeamMemberDetails } from "./types";
+import { BranchDetails, Clients, NavItems, ServicePageDetails, SocailMediaLinks, TeamMemberDetails } from "./types";
 
 export const navLinks: NavItems[] = [
     {
@@ -53,6 +53,10 @@ export const navLinks: NavItems[] = [
                 href: "/services/security-solutions"
             }
         ]
+    },
+    {
+        label: "Our Clients",
+        href: "/clients",
     },
     {
         label: "Contact Us",
@@ -387,5 +391,56 @@ export const teamMembersDetails: TeamMemberDetails[] = [
             instagram: "/",
             linkedin: "/"
         }
+    },
+]
+
+export const clientsDetails:Clients[]=[
+    {
+        img:"/clients/tokyo.png",
+        title:"Tokyo Cement Factory Trincomalee",
+        description:"This is one of the key project with over 200+ IP CCTV cameras & live monitoring at the Central Control Room (CCR), Fiber optic backbone of 8KM length among two sub locations, more than 50 IP phones & 160 analog phones and public announcement system with 60 IP speakers and number of announcing stations.",
+        points:[
+            "Fiber Optic Backbone","Data Network","IP PABX System","IP PA System"
+        ]
+    },
+    {
+        img:"/clients/araliya-green.png",
+        title:"Araliya Green Hills Hotel Nuwaraeliya",
+        description:"This project we successfully completed for Araliya Green Hills Hotel with fiber optic backbone, guest wi-fi solution & with PABX system with over 200 extensions.",
+        points:[
+            "Fiber Optic Backbone","Data Network","Guest Wi-Fi Solution","PABX System"
+        ]
+    },
+    {
+        img:"/clients/araliya-red.png",
+        title:"Araliya Red Hotel Nuwaraeliya",
+        description:"This is one of the key project with multiple technologies that we integrated and provided the customer & its guests a seamless technology experience.",
+        points:[
+            "Firewall Solution","Data Network","Guest Wi-Fi Solution"
+        ]
+    },
+    {
+        img:"/clients/nc-province.png",
+        title:"Provincial Council North Central Province",
+        description:"This project we successfully completed for North Central Province – Provincial Council  with data network, PABX system with over 400 extensions, Attendance system, CCTV system & PA system.",
+        points:[
+            "PABX System","Data Network","PA system","Attendance System","CCTV Camera System"
+        ]
+    },
+    {
+        img:"/clients/rajarata.png",
+        title:"Rajarata Hotel Anuradhapura",
+        description:"This is one of the key project with multiple technologies that we integrated and provided the customer a seamless technology experience.",
+        points:[
+            "Fiber Optic Backbone","Data Network","Guest Wi-Fi Solution","IP PABX System","IP TV Solution","IP CCTV Camera System","SD-WAN Solution"
+        ]
+    },
+    {
+        img:"/clients/chimneys.png",
+        title:"The Chimneys Hotel Nuwaraeliya",
+        description:"This project we successfully completed for Chimneys Nuwara Eliya, with guest Wi-Fi solution, data network, IP PABX system and with PA system.",
+        points:[
+            "Guest Wi-Fi Solution","Data Network","PA system","IP PABX System"
+        ]
     },
 ]

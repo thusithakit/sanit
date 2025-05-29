@@ -52,3 +52,10 @@ export type ContactFormState = {
     success: boolean;
     message: string;
 };
+
+export type Clients = {
+    img:string,
+    title:string,
+    description:string,
+    points:string[]
+}
