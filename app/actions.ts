@@ -1,5 +1,4 @@
 "use server"
-import { z } from 'zod';
 import { resend } from '@/lib/resend';
 import { contactFormSchema } from "@/lib/schems";
 import EmailTemplate from "@/components/EmailTemplate";
@@ -30,6 +29,7 @@ export const handleContactFormSubmit = async (prevState: {success:boolean;errors
     });
     return { success: true, errors: {} };
     } catch (err){
+        console.error('Error sending email:', err);
         return {
       success: false,
       errors: { general: 'Failed to send email. Please try again.' },
