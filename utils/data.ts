@@ -142,15 +142,15 @@ export const serviceDetails: ServicePageDetails[] = [
             videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
             cardDetails: [
                 {
-                    cardDescription: "Enterprise Wi-Fi Networks",
+                    cardDescription: "",
                     cardImage: "/services/enterprise-wifi.webp"
                 },
                 {
-                    cardDescription: "Mesh Wi-Fi & Hotspot Solutions",
+                    cardDescription: "",
                     cardImage: "/services/mesh-wifi.webp"
                 },
                 {
-                    cardDescription: "Bandwidth Optimization & Access Control",
+                    cardDescription: "",
                     cardImage: "/services/bandwidth.webp"
                 }
             ],
@@ -188,15 +188,15 @@ export const serviceDetails: ServicePageDetails[] = [
             videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
             cardDetails: [
                 {
-                    cardDescription: "Enterprise-Grade Firewalls for intrusion prevention",
+                    cardDescription: "",
                     cardImage: "/services/firewall.webp"
                 },
                 {
-                    cardDescription: "VPN Setup for secure remote access",
+                    cardDescription: "",
                     cardImage: "/services/vpn.webp"
                 },
                 {
-                    cardDescription: "Cybersecurity Audits & Compliance Services",
+                    cardDescription: "",
                     cardImage: "/services/audits.webp"
                 }
             ],
@@ -211,15 +211,15 @@ export const serviceDetails: ServicePageDetails[] = [
             videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
             cardDetails: [
                 {
-                    cardDescription: "Enterprise-Grade Firewalls for intrusion prevention",
+                    cardDescription: "",
                     cardImage: "/services/firewall.webp"
                 },
                 {
-                    cardDescription: "VPN Setup for secure remote access",
+                    cardDescription: "",
                     cardImage: "/services/vpn.webp"
                 },
                 {
-                    cardDescription: "Cybersecurity Audits & Compliance Services",
+                    cardDescription: "",
                     cardImage: "/services/audits.webp"
                 }
             ],
@@ -234,15 +234,15 @@ export const serviceDetails: ServicePageDetails[] = [
             videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
             cardDetails: [
                 {
-                    cardDescription: "Enterprise-Grade Firewalls for intrusion prevention",
+                    cardDescription: "",
                     cardImage: "/services/firewall.webp"
                 },
                 {
-                    cardDescription: "VPN Setup for secure remote access",
+                    cardDescription: "",
                     cardImage: "/services/vpn.webp"
                 },
                 {
-                    cardDescription: "Cybersecurity Audits & Compliance Services",
+                    cardDescription: "",
                     cardImage: "/services/audits.webp"
                 }
             ],
@@ -257,15 +257,15 @@ export const serviceDetails: ServicePageDetails[] = [
             videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
             cardDetails: [
                 {
-                    cardDescription: "Enterprise-Grade Firewalls for intrusion prevention",
+                    cardDescription: "",
                     cardImage: "/services/firewall.webp"
                 },
                 {
-                    cardDescription: "VPN Setup for secure remote access",
+                    cardDescription: "",
                     cardImage: "/services/vpn.webp"
                 },
                 {
-                    cardDescription: "Cybersecurity Audits & Compliance Services",
+                    cardDescription: "",
                     cardImage: "/services/audits.webp"
                 }
             ],
@@ -280,15 +280,15 @@ export const serviceDetails: ServicePageDetails[] = [
             videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
             cardDetails: [
                 {
-                    cardDescription: "Enterprise-Grade Firewalls for intrusion prevention",
+                    cardDescription: "",
                     cardImage: "/services/firewall.webp"
                 },
                 {
-                    cardDescription: "VPN Setup for secure remote access",
+                    cardDescription: "",
                     cardImage: "/services/vpn.webp"
                 },
                 {
-                    cardDescription: "Cybersecurity Audits & Compliance Services",
+                    cardDescription: "",
                     cardImage: "/services/audits.webp"
                 }
             ],

@@ -1,16 +1,38 @@
 "use server"
+import { z } from 'zod';
+import { resend } from '@/lib/resend';
+import { contactFormSchema } from "@/lib/schems";
+import EmailTemplate from "@/components/EmailTemplate";
 
-import { ContactFormState } from "@/utils/types";
+export const handleContactFormSubmit = async (prevState: {success:boolean;errors:Record<string,string>}, formData: FormData) => {
+    const parsed = contactFormSchema.safeParse({
+        firstName: formData.get('firstName'),
+        lastName: formData.get('lastName'),
+        email: formData.get('email'),
+        phone: formData.get('phone'),
+        message: formData.get('message'),
+    })
+    if(!parsed.success){
+        const errors: Record<string, string> = {};
+        parsed.error.issues.forEach(issue => {
+        errors[issue.path[0] as string] = issue.message;
+        });
 
-
-export const handleContactFormSubmit = async (prevState: ContactFormState, formData: FormData): Promise<ContactFormState> => {
-    const fName = formData.get('firstName');
-    const lName = formData.get('lastName');
-    const email = formData.get('email');
-    const phone = formData.get('phone');
-    const message = formData.get('message');
-    if (!fName || !lName || !email || !phone || !message) {
-        return { success: false, message: "Please fill all the fields!" };
+        return { success: false, errors };
     }
-    return { success: true, message: "Your Message has been sent successfully!" };
+    const { firstName, lastName, email, phone, message } = parsed.data;
+    try{
+      await resend.emails.send({
+      from: 'Acme <onboarding@resend.dev>',
+      to: ['thusithakit3@gmail.com'],
+      subject: `${firstName} ${lastName} sent you a new message!`,
+      react: EmailTemplate({ firstName: firstName, lastName: lastName, email: email,phone:phone, message: message }),
+    });
+    return { success: true, errors: {} };
+    } catch (err){
+        return {
+      success: false,
+      errors: { general: 'Failed to send email. Please try again.' },
+    };
+    }
 }
