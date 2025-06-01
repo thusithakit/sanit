@@ -74,15 +74,15 @@ export const serviceDetails: ServicePageDetails[] = [
             cardDetails: [
                 {
                     cardDescription: "Structured Cabling for seamless data transmission",
-                    cardImage: "/services/cabling.webp"
+                    cardImage: "/solutions/network-solutions-1.webp"
                 },
                 {
                     cardDescription: "LAN & WAN Setup for high-speed connectivity",
-                    cardImage: "/services/lan.webp"
+                    cardImage: "/solutions/network-solutions-2.webp"
                 },
                 {
                     cardDescription: "Network Maintenance & Troubleshooting to ensure uninterrupted operations",
-                    cardImage: "/services/maintenance.webp"
+                    cardImage: "/solutions/network-solutions-3.webp"
                 }
             ],
             contact:"Contact us today to discuss how our network infrastructure Solutions can empower your business to thrive in a connected world."
@@ -97,15 +97,15 @@ export const serviceDetails: ServicePageDetails[] = [
             cardDetails: [
                 {
                     cardDescription: "IP and Analog PABX Solutions",
-                    cardImage: "/services/cloud-phone.webp"
+                    cardImage: "/solutions/pabx-systems-1.webp"
                 },
                 {
                     cardDescription: "Cloud-based Telephony",
-                    cardImage: "/services/cloud-phone.webp"
+                    cardImage: "/solutions/pabx-systems-2.webp"
                 },
                 {
                     cardDescription: "Call Routing & Voicemail Integration",
-                    cardImage: "/services/call-routing.webp"
+                    cardImage: "/solutions/pabx-systems-3.webp"
                 }
             ],
             contact:"Start the conversation with us to explore how our PABX Solutions can enhance your communication systems and help your business thrive in a connected world."
@@ -120,15 +120,15 @@ export const serviceDetails: ServicePageDetails[] = [
             cardDetails: [
                 {
                     cardDescription: "Enterprise Wi-Fi Networks",
-                    cardImage: "/services/enterprise-wifi.webp"
+                    cardImage: "/solutions/wifi-solutions-1.webp"
                 },
                 {
                     cardDescription: "Mesh Wi-Fi & Hotspot Solutions",
-                    cardImage: "/services/mesh-wifi.webp"
+                    cardImage: "/solutions/wifi-solutions-2.webp"
                 },
                 {
                     cardDescription: "Bandwidth Optimization & Access Control",
-                    cardImage: "/services/bandwidth.webp"
+                    cardImage: "/solutions/wifi-solutions-3.webp"
                 }
             ],
             contact:"Get in touch with us today to explore how our advanced WiFi Solutions can help your business thrive in a seamlessly connected world."
@@ -143,15 +143,15 @@ export const serviceDetails: ServicePageDetails[] = [
             cardDetails: [
                 {
                     cardDescription: "",
-                    cardImage: "/services/enterprise-wifi.webp"
+                    cardImage: "/solutions/iptv-solutions-1.webp"
                 },
                 {
                     cardDescription: "",
-                    cardImage: "/services/mesh-wifi.webp"
+                    cardImage: "/solutions/iptv-solutions-2.webp"
                 },
                 {
                     cardDescription: "",
-                    cardImage: "/services/bandwidth.webp"
+                    cardImage: "/solutions/iptv-solutions-3.webp"
                 }
             ],
             contact:"Reach out to our team to discover how our IPTV solutions can elevate your guest experience and help your business thrive in a connected world."
@@ -166,15 +166,15 @@ export const serviceDetails: ServicePageDetails[] = [
             cardDetails: [
                 {
                     cardDescription: "Enterprise-Grade Firewalls for intrusion prevention",
-                    cardImage: "/services/firewall.webp"
+                    cardImage: "/solutions/firewall-solutions-1.webp"
                 },
                 {
                     cardDescription: "VPN Setup for secure remote access",
-                    cardImage: "/services/vpn.webp"
+                    cardImage: "/solutions/firewall-solutions-2.webp"
                 },
                 {
                     cardDescription: "Cybersecurity Audits & Compliance Services",
-                    cardImage: "/services/audits.webp"
+                    cardImage: "/solutions/firewall-solutions-3.webp"
                 }
             ],
             contact:"Let’s connect to discuss your needs to learn how our advanced Firewall Solutions can safeguard your network and help your business thrive in a connected world."
@@ -189,15 +189,15 @@ export const serviceDetails: ServicePageDetails[] = [
             cardDetails: [
                 {
                     cardDescription: "",
-                    cardImage: "/services/firewall.webp"
+                    cardImage: "/solutions/cctv-solutions-1.webp"
                 },
                 {
                     cardDescription: "",
-                    cardImage: "/services/vpn.webp"
+                    cardImage: "/solutions/cctv-solutions-2.webp"
                 },
                 {
                     cardDescription: "",
-                    cardImage: "/services/audits.webp"
+                    cardImage: "/solutions/cctv-solutions-3.webp"
                 }
             ],
             contact:"Schedule a consultation today to explore how our CCTV Camera Solutions can strengthen your security and help your business thrive in a connected world."
@@ -212,15 +212,15 @@ export const serviceDetails: ServicePageDetails[] = [
             cardDetails: [
                 {
                     cardDescription: "",
-                    cardImage: "/services/firewall.webp"
+                    cardImage: "/solutions/sdwan-solutions-1.webp"
                 },
                 {
                     cardDescription: "",
-                    cardImage: "/services/vpn.webp"
+                    cardImage: "/solutions/sdwan-solutions-2.webp"
                 },
                 {
                     cardDescription: "",
-                    cardImage: "/services/audits.webp"
+                    cardImage: "/solutions/sdwan-solutions-3.webp"
                 }
             ],
             contact:"Talk to our experts today to explore how our SD WAN Solutions can strengthen your security and help your business thrive in a connected world."
@@ -235,15 +235,15 @@ export const serviceDetails: ServicePageDetails[] = [
             cardDetails: [
                 {
                     cardDescription: "",
-                    cardImage: "/services/firewall.webp"
+                    cardImage: "/solutions/fiber-solutions-1.webp"
                 },
                 {
                     cardDescription: "",
-                    cardImage: "/services/vpn.webp"
+                    cardImage: "/solutions/fiber-solutions-2.webp"
                 },
                 {
                     cardDescription: "",
-                    cardImage: "/services/audits.webp"
+                    cardImage: "/solutions/fiber-solutions-3.webp"
                 }
             ],
             contact:"Discover what we can do for you to explore how our Fiber Optic Solutions can boost your connectivity and help your business thrive in a connected world."
@@ -258,15 +258,15 @@ export const serviceDetails: ServicePageDetails[] = [
             cardDetails: [
                 {
                     cardDescription: "",
-                    cardImage: "/services/firewall.webp"
+                    cardImage: "/solutions/pa-solutions-1.webp"
                 },
                 {
                     cardDescription: "",
-                    cardImage: "/services/vpn.webp"
+                    cardImage: "/solutions/pa-solutions-2.webp"
                 },
                 {
                     cardDescription: "",
-                    cardImage: "/services/audits.webp"
+                    cardImage: "/solutions/pa-solutions-3.webp"
                 }
             ],
             contact:"Request a customized solution to discover how our PA System can improve communication and support your business in a connected world."
@@ -281,15 +281,15 @@ export const serviceDetails: ServicePageDetails[] = [
             cardDetails: [
                 {
                     cardDescription: "",
-                    cardImage: "/services/firewall.webp"
+                    cardImage: "/solutions/security-solutions-1.webp"
                 },
                 {
                     cardDescription: "",
-                    cardImage: "/services/vpn.webp"
+                    cardImage: "/solutions/security-solutions-2.webp"
                 },
                 {
                     cardDescription: "",
-                    cardImage: "/services/audits.webp"
+                    cardImage: "/solutions/security-solutions-3.webp"
                 }
             ],
             contact:"Partner with us for smarter solutions to learn how our Security Access System Solutions can enhance your premises' safety and help your business thrive in a connected world."
