@@ -444,3 +444,21 @@ export const clientsDetails:Clients[]=[
         ]
     },
 ]
+
+export const clientLogos:string[] = [
+        "/client-logos/araliyagreencity.jpg",
+        "/client-logos/BOC.jpg",
+        "/client-logos/celanlogdeanuradapura.jpg",
+        "/client-logos/centralfinance.jpg",
+        "/client-logos/chimneyshotel.jpg",
+        "/client-logos/cloverepublic.jpg",
+        "/client-logos/d2clothing.jpg",
+        "/client-logos/Department-of-Irrigation-.jpg",
+        "/client-logos/gimanhala.jpg",
+        "/client-logos/hotelwhitehouse.jpg",
+        "/client-logos/kuwera.jpg",
+        "/client-logos/nativeway.jpg",
+        "/client-logos/sanasabank.jpg",
+        "/client-logos/suwashanthi.jpg",
+        "/client-logos/tokyosuper.jpg"
+]
