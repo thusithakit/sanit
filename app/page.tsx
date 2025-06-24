@@ -75,7 +75,7 @@ export default function Home() {
         <div className="container no-border flex flex-col-reverse lg:flex-row justify-center lg:justify-start items-center gap-10">
           <Image src="/ensure.webp" alt="Ensure Your Connectivity" width={523} height={554} className="bottom-0 left-0 z-10 block relative" />
           <div className="lg:pb-20">
-            <Badge variant="outline" className="text-xs text-[#323E59] font-normal py-2.5 px-4 rounded-[100px]">14+ Years of Experience</Badge>
+            <Badge variant="outline" className="text-xs text-[#323E59] font-[18px] font-semibold py-2.5 px-4 rounded-[100px]">16+ Years of Experience</Badge>
             <h1 className="lg:w-[560px] mb-2">We&apos;re Just a <span>Message</span> Away!</h1>
             <p className="text-[20px] lg:text-2xl text-[#677187] my-4 lg:mt-5 mb-9">Connect with us</p>
             <PrimaryButton href="/contact" classes="bg-white mb-4 border border-[#D7E2F5] hover:bg-[#304E7E] hover:text-white">

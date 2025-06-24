@@ -30,7 +30,7 @@ export const navLinks: NavItems[] = [
             },
             {
                 label: "PABX Solutions",
-                href: "/services/pabx-systems"
+                href: "/services/pabx-solutions"
             },
             {
                 label: "CCTV Camera Solutions",
@@ -45,11 +45,11 @@ export const navLinks: NavItems[] = [
                 href: "/services/fiber-solutions"
             },
             {
-                label: "PA Systems",
+                label: "PA Solutions",
                 href: "/services/pa-solutions"
             },
             {
-                label: "Security Access Solutions Systems",
+                label: "Security Access Solutions",
                 href: "/services/security-solutions"
             }
         ]
@@ -89,9 +89,9 @@ export const serviceDetails: ServicePageDetails[] = [
         }
     },
     {
-        pageUrl: "/pabx-systems",
+        pageUrl: "/pabx-solutions",
         pageDetails: {
-            heading: "PABX Systems",
+            heading: "PABX Solutions",
             description: "Manage internal and external calls within an organization by connecting multiple phone lines, route calls, provide extensions, and enable features such as call forwarding, voicemail, and conference calling.",
             videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
             cardDetails: [
@@ -252,7 +252,7 @@ export const serviceDetails: ServicePageDetails[] = [
     {
         pageUrl: "/pa-solutions",
         pageDetails: {
-            heading: "PA Systems",
+            heading: "PA Solutions",
             description: "Amplify and distribute announcements, alerts, or background music in public spaces.",
             videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
             cardDetails: [
@@ -269,7 +269,7 @@ export const serviceDetails: ServicePageDetails[] = [
                     cardImage: "/solutions/pa-solutions-3.webp"
                 }
             ],
-            contact:"Request a customized solution to discover how our PA System can improve communication and support your business in a connected world."
+            contact:"Request a customized solution to discover how our PA Solutions can improve communication and support your business in a connected world."
         }
     },
     {
