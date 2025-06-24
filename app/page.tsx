@@ -36,7 +36,7 @@ export default function Home() {
               <LinkButton href="/about" classes="border border-[#D7E2F5] rounded-full text-[#304E7E] font-[600] text-[18px] lg:rounded-[100px] bg-white hover:bg-[#304E7E] hover:text-white duration-300 flex items-center justify-center py-2 pr-2 pl-8 lg:gap-4">Why SANIT</LinkButton>
             </div>
           </div>
-          <Image src={HeroImg} width={544} height={800} alt="Hero Imge" className="hidden lg:block" />
+          <Image src={HeroImg} width={544} height={700} alt="Hero Imge" className="hidden lg:block" />
         </div>
       </section>
       <section className="bg-linear-to-t from-white to-[#F0F5FD]">
