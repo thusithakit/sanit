@@ -1,5 +1,4 @@
 import Card from '@/components/Card'
-import dynamic from 'next/dynamic'
 import { BsFillEyeFill,BsFillRocketTakeoffFill } from 'react-icons/bs';
 
 
