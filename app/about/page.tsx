@@ -2,7 +2,6 @@ import Card from '@/components/Card'
 import dynamic from 'next/dynamic'
 import { BsFillEyeFill,BsFillRocketTakeoffFill } from 'react-icons/bs';
 
-const TeamCarousel = dynamic(() => import('@/components/TeamCarousel'));
 
 const page = () => {
     return (
@@ -12,10 +11,10 @@ const page = () => {
                     <h1 className='lg:w-[544px]'>Company <span>Overview</span></h1>
                     <div className='lg:w-[544px] text-[16px] lg:text-[18px]'>
                         <p className='mb-5 text-[#677187]'>
-                            &quot;At Sanit, we believe a true &apos;solution&apos; goes beyond a product or service it&apos;s built on quality, innovation, and impact. Since 2010, our team has grown from just three to over 70 dedicated professionals, all united by a shared vision and unwavering core values.
+                            &quot;At Sanit, we believe a true &apos;solution&apos; goes beyond a product or service, it&apos;s built on, quality, innovation, and impact. Since 2010, our team has grown from just three (03) to over 70 dedicated professionals, all united by a shared vision and unwavering core values.
                         </p>
                         <p className='mb-5 text-[#677187]'>
-                            Over 14 years, we&apos;ve consistently helped clients to grow by delivering forward thinking, reliable solutions. Our commitment has earned us recognition, awards, and most importantly the trust of those we serve.
+                            Over 16 years, we&apos;ve consistently helped clients to grow by delivering forward thinking and reliable solutions. Our commitment has earned us recognition, awards, and most importantly the trust of those we serve.
                         </p>
                         <p className='text-[#677187]'>
                             Trust remains as our greatest strength.&quot;
@@ -31,18 +30,12 @@ const page = () => {
                 </div>
                 <div className='lg:py-44 py-10 border border-x-0 border-t-0 border-b-[#E0EAFF]'>
                     <div className='grid lg:grid-cols-2 lg:gap-8 lg:mb-[86px] gap-4 mb-[50px]'>
-                        <h1 className='lg:text-[52px] text-[40px]'><span>Meet the Experts</span> Behind Sanit Technologies</h1>
+                        <h1 className='lg:text-[52px] text-[40px]'><span>Our</span> Belief</h1>
                         <div className='lg:w-[544px] text-[20px] lg:text-2xl text-[#677187]'>
                             <p className='lg:mb-7 mb-4'>
-                                Our team of network engineers, IT security specialists and communication experts is dedicated to delivering high-quality services and support.
-                            </p>
-                            <p>
-                                We value innovation, reliability and customer satisfaction, ensuring that our solutions align perfectly with your business needs.
+                                Quality is not just a standard; it&apos;s a principle we lived by. That&apos;s why we never compromise.
                             </p>
                         </div>
-                    </div>
-                    <div className='w-full'>
-                        <TeamCarousel />
                     </div>
                 </div>
             </div>

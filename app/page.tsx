@@ -42,28 +42,28 @@ export default function Home() {
       <section className="bg-linear-to-t from-white to-[#F0F5FD]">
         <div className="flex flex-col items-center justify-center container lg:gap-8 lg:py-20 gap-5 py-10 lg:flex-row">
           <p className="flex-1/3 text-xl text-[#323E59] lg:pr-12">
-            This proves that we are the best at what we do...
+            This proves that we are one of the best at what we do
           </p>
           <div className="lg:flex lg:gap-6 grid grid-cols-2 lg:flex-2/3 lg:grid-cols-4">
             <Numbers number={16} slug="Years of Experience" className="flex p-2.5 lg:p-0" />
             <Numbers number={20} slug="Technology Partners" className="flex p-2.5 lg:p-0" />
             <Numbers number={250} slug="Finished Projects" className="flex p-2.5 lg:p-0" />
-            <Numbers number={200} slug="Delighted Customers" className="flex p-2.5 lg:p-0" />
+            <Numbers number={400} slug="Delighted Customers" className="flex p-2.5 lg:p-0" />
           </div>
         </div>
       </section>
       <section className="bg-white">
         <div className="container border border-[#E0EAFF] border-l-0 border-r-0 flex justify-center items-center flex-wrap lg:flex-nowrap w-fit">
           <Card cardTitle="Enterprise Solutions" cardContent="Weather you are SME or Enterprise, Government or BFSI, we have the solution for your IT needs." icon={<BsFillBuildingsFill size={65} />} />
-          <Card className="border border-[#E0EAFF] border-x-0 lg:border-x lg:border-t-0 lg:border-b-0 hover:bg-[#4e5d80]" cardTitle="Managed Services" cardContent="Agile & Flexible approach to manage your IT infrastructure seamlessly. Discuss with our sales team now." icon={<BsDatabaseFillGear size={65} />} />
-          <Card cardTitle="IT Consultancy" cardContent="We have the expertise to help you define a game plan, to overcome any IT related support you required." icon={<BsFillLightbulbFill size={65} />} />
+          <Card className="border border-[#E0EAFF] border-x-0 lg:border-x lg:border-t-0 lg:border-b-0 hover:bg-[#4e5d80]" cardTitle="Managed Services" cardContent="Agile & flexible approach to manage your IT infrastructure seamlessly. Discuss with our sales team now." icon={<BsDatabaseFillGear size={65} />} />
+          <Card cardTitle="IT Consultancy" cardContent="We have the expertise to help you to define a game plan, to overcome any IT related support you required." icon={<BsFillLightbulbFill size={65} />} />
         </div>
       </section>
       <section>
         <div className="container py-16 lg:pt-[150px] lg:pb-[126px] flex flex-col justify-center gap-10 lg:justify-between lg:flex-row items-center lg:gap-24">
           <div>
             <h1 className="lg:mb-5 lg:w-[448px]">Why Sanit <span>Stands Out?</span></h1>
-            <p className="text-[#677187] text-[20px] lg:text-2xl lg:w-[410px]">Smooth & Stable integration backed by people who are capable of</p>
+            <p className="text-[#677187] text-[20px] lg:text-2xl lg:w-[410px]">Smooth & stable integration backed by people who are capable of</p>
           </div>
           <CarouselCard />
         </div>

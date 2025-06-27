@@ -85,7 +85,7 @@ export const serviceDetails: ServicePageDetails[] = [
                     cardImage: "/solutions/network-solutions-3.webp"
                 }
             ],
-            contact:"Contact us today to discuss how our network infrastructure Solutions can empower your business to thrive in a connected world."
+            contact:"Contact us today to discuss how our network infrastructure solutions can empower your business to thrive in a connected world."
         }
     },
     {
@@ -108,7 +108,7 @@ export const serviceDetails: ServicePageDetails[] = [
                     cardImage: "/solutions/pabx-systems-3.webp"
                 }
             ],
-            contact:"Start the conversation with us to explore how our PABX Solutions can enhance your communication systems and help your business thrive in a connected world."
+            contact:"Start the conversation with us to explore how our PABX solutions can enhance your communication systems and help your business thrive in a connected world."
         }
     },
     {
@@ -131,7 +131,7 @@ export const serviceDetails: ServicePageDetails[] = [
                     cardImage: "/solutions/wifi-solutions-3.webp"
                 }
             ],
-            contact:"Get in touch with us today to explore how our advanced WiFi Solutions can help your business thrive in a seamlessly connected world."
+            contact:"Get in touch with us today to explore how our advanced WiFi solutions can help your business thrive in a seamlessly connected world."
         }
     },
     {
@@ -161,7 +161,7 @@ export const serviceDetails: ServicePageDetails[] = [
         pageUrl: "/firewall-solutions",
         pageDetails: {
             heading: "Firewall Solutions",
-            description: "Protect networks against modern cyber threats using combine advanced security features such as deep packet inspection, intrusion prevention, and application controls.",
+            description: "Protect networks against modern cyber threats using combined advanced security features such as deep packet inspection, intrusion prevention, and application controls.",
             videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
             cardDetails: [
                 {
@@ -177,7 +177,7 @@ export const serviceDetails: ServicePageDetails[] = [
                     cardImage: "/solutions/firewall-solutions-3.webp"
                 }
             ],
-            contact:"Let’s connect to discuss your needs to learn how our advanced Firewall Solutions can safeguard your network and help your business thrive in a connected world."
+            contact:"Let’s connect to discuss your needs to learn how our advanced Firewall solutions can safeguard your network and help your business thrive in a connected world."
         }
     },
     {
@@ -200,7 +200,7 @@ export const serviceDetails: ServicePageDetails[] = [
                     cardImage: "/solutions/cctv-solutions-3.webp"
                 }
             ],
-            contact:"Schedule a consultation today to explore how our CCTV Camera Solutions can strengthen your security and help your business thrive in a connected world."
+            contact:"Schedule a consultation today to explore how our CCTV Camera solutions can strengthen your security and help your business thrive in a connected world."
         }
     },
     {
@@ -223,14 +223,14 @@ export const serviceDetails: ServicePageDetails[] = [
                     cardImage: "/solutions/sdwan-solutions-3.webp"
                 }
             ],
-            contact:"Talk to our experts today to explore how our SD WAN Solutions can strengthen your security and help your business thrive in a connected world."
+            contact:"Talk to our experts today to explore how our SD WAN solutions can strengthen your security and help your business thrive in a connected world."
         }
     },
     {
         pageUrl: "/fiber-solutions",
         pageDetails: {
             heading: "Fiber Optic Solutions",
-            description: "Se up long-distance and high-performance data networking for telecommunication services, such as internet, television and telephones.",
+            description: "Set up long-distance and high-performance data networking for telecommunication services, such as internet, television and telephones.",
             videoUrl: "https://youtube.com/embed/ggWh_2cYkiw?si=lIgfuUGoWB5JgqGZ",
             cardDetails: [
                 {
@@ -246,7 +246,7 @@ export const serviceDetails: ServicePageDetails[] = [
                     cardImage: "/solutions/fiber-solutions-3.webp"
                 }
             ],
-            contact:"Discover what we can do for you to explore how our Fiber Optic Solutions can boost your connectivity and help your business thrive in a connected world."
+            contact:"Discover what we can do for you to explore how our Fiber Optic solutions can boost your connectivity and help your business thrive in a connected world."
         }
     },
     {
@@ -269,7 +269,7 @@ export const serviceDetails: ServicePageDetails[] = [
                     cardImage: "/solutions/pa-solutions-3.webp"
                 }
             ],
-            contact:"Request a customized solution to discover how our PA Solutions can improve communication and support your business in a connected world."
+            contact:"Request a customized solution to discover how our PA solutions can improve communication and support your business in a connected world."
         }
     },
     {
@@ -292,7 +292,7 @@ export const serviceDetails: ServicePageDetails[] = [
                     cardImage: "/solutions/security-solutions-3.webp"
                 }
             ],
-            contact:"Partner with us for smarter solutions to learn how our Security Access System Solutions can enhance your premises' safety and help your business thrive in a connected world."
+            contact:"Partner with us for smarter solutions to learn how our Security Access System solutions can enhance your premises' safety and help your business thrive in a connected world."
         }
     },
 ]
@@ -406,7 +406,7 @@ export const clientsDetails:Clients[]=[
     {
         img:"/clients/araliya-green.png",
         title:"Araliya Green Hills Hotel Nuwaraeliya",
-        description:"This project we successfully completed for Araliya Green Hills Hotel with fiber optic backbone, guest wi-fi solution & with PABX system with over 200 extensions.",
+        description:"The project was successfully completed for Araliya Green Hills Hotel with fiber optic backbone, guest wi-fi solution & with PABX system with over 200 extensions.",
         points:[
             "Fiber Optic Backbone","Data Network","Guest Wi-Fi Solution","PABX System"
         ]
@@ -422,7 +422,7 @@ export const clientsDetails:Clients[]=[
     {
         img:"/clients/nc-province.png",
         title:"Provincial Council North Central Province",
-        description:"This project we successfully completed for North Central Province – Provincial Council  with data network, PABX system with over 400 extensions, Attendance system, CCTV system & PA system.",
+        description:"This project we successfully completed for Provincial Council of North Central Province with data network, PABX system with over 400 extensions, Attendance system, CCTV system & PA system.",
         points:[
             "PABX System","Data Network","PA system","Attendance System","CCTV Camera System"
         ]
