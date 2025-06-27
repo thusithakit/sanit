@@ -7,8 +7,8 @@ const CommonHeader = ({ data }: { data: CommonCardProps }) => {
     return (
         <div className="bg-gradient-to-b from-[#F0F5FD] to-90%-white">
             <div className="container">
-                <div className="lg:pt-32 flex items-center justify-start lg:gap-4 lg:mb-8 pt-2 flex-col lg:flex-row gap-7 mb-5">
-                    <h2 className="text-[#92ABD6] lg:text-[65px] lg:w-xl common-header-title text-[52px]">{heading}</h2>
+                <div className="lg:pt-15 flex items-center justify-start lg:gap-4 lg:mb-8 pt-2 flex-col lg:flex-row gap-7 mb-5">
+                    <h2 className="text-[#92ABD6] lg:text-[50px] lg:w-xl common-header-title text-[40px]">{heading}</h2>
                     <p className="text-[#323E59] lg:text-2xl lg:w-[544px] text-[20px]">{description}</p>
                 </div>
                 <div className="grid auto-grid">

@@ -50,7 +50,7 @@ const CarouselCard = () => {
                             <Image src={expert} alt='Team of Experts' className='mb-[27px] lg:mb-10 lg:w-full' />
                             <h2 className='text-[#323E59] text-[20px] lg:text-[28px] mb-2.5'>Brand Trust and Customer Loyalty</h2>
                             <p className='lg:text-[18px] text-[#677187]'>
-                                Our long-standing commitment to excellence and reliable service has fostered enduring client loyalty.
+                                Our long-standing commitment to excellence and reliable service have fostered enduring client loyalty.
                             </p>
                         </CardContent>
                     </Card>

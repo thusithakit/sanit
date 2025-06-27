@@ -5,9 +5,9 @@ import { clientsDetails } from "@/utils/data"
 const page = () => {
   return (
     <>
-        <div className=" bg-gradient-to-b from-[#F0F5FD] to-10%-white lg:pt-20 pt-12">
+        <div className=" bg-gradient-to-b from-[#F0F5FD] to-10%-white lg:pt-10 pt-8">
             <div className="container">
-            <div className="grid lg:grid-cols-2 pb-[30px] lg:py-[156px] border border-x-0 border-t-0 border-b-[#E0EAFF] lg:gap-8 gap-5">
+            <div className="grid lg:grid-cols-2 pb-[30px] lg:py-[100px] border border-x-0 border-t-0 border-b-[#E0EAFF] lg:gap-8 gap-5">
                     <h1 className='lg:w-[544px]'>Brands That <span>Trust Us</span></h1>
                     <div className='lg:w-[544px] text-[16px] lg:text-[18px]'>
                         <p className='mb-5 text-[#677187]'>
@@ -23,7 +23,7 @@ const page = () => {
         <div className="container no-pt">
             <ClientCarousel/>
             <div className="grid lg:grid-cols-2 pb-[30px] lg:py-[80px] lg:gap-8 gap-5">
-                    <h1 className='lg:w-[544px]'>Real <span>Projects,</span> Real <span>Results</span></h1>
+                    <h1 className='lg:w-[544px] lg:text-5xl'>Delivered <span>Excellence,</span> Delighted <span>Clients</span></h1>
                     <div className='lg:w-[544px] text-[16px] lg:text-[18px]'>
                         <p className='mb-5 text-[#677187]'>
                             We take pride in turning challenges into success stories. Each project we undertake is a reflection of our commitment to quality, innovation, and client satisfaction.
