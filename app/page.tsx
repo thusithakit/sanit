@@ -62,7 +62,7 @@ export default function Home() {
       <section>
         <div className="container py-16 lg:pt-[150px] lg:pb-[126px] flex flex-col justify-center gap-10 lg:justify-between lg:flex-row items-center lg:gap-24">
           <div>
-            <h1 className="lg:mb-5 lg:w-[448px]">Why Sanit <span>Stands Out?</span></h1>
+            <h1 className="lg:mb-5 lg:w-[448px]">What Sets <span>Sanit Apart?</span></h1>
             <p className="text-[#677187] text-[20px] lg:text-2xl lg:w-[410px]">Smooth & stable integration backed by people who are capable of</p>
           </div>
           <CarouselCard />

@@ -24,19 +24,6 @@ const Footer = () => {
                             <div className='flex flex-col gap-6'>
                                 <Link href='/clients' className='footer-link'><h3>Our Clients</h3></Link>
                             </div>
-                            {/* <div className='flex flex-col gap-6'>
-                                <h3>Solutions</h3>
-                                <Link href='/services/network-solutions' className='footer-link'><p>Network Infrastructure Solutions</p></Link>
-                                <Link href='/services/wifi-solutions' className='footer-link'><p>Wi-Fi Solutions</p></Link>
-                                <Link href='/services/iptv-solutions' className='footer-link'><p>IPTV Solutions</p></Link>
-                                <Link href='/services/firewall-solutions' className='footer-link'><p>Firewall Solutions</p></Link>
-                                <Link href='/services/pabx-systems' className='footer-link'><p>PABX Solutions</p></Link>
-                                <Link href='/services/sdwan-solutions' className='footer-link'><p>SD-WAN Solutions</p></Link>
-                                <Link href='/services/cctv-solutions' className='footer-link'><p>CCTV Camera Solutions</p></Link>
-                                <Link href='/services/fiber-solutions' className='footer-link'><p>Fiber Optic Solutions</p></Link>
-                                <Link href='/services/pa-solutions' className='footer-link'><p>PA Systems</p></Link>
-                                <Link href='/services/security-solutions' className='footer-link'><p>Security Access Solutions Systems</p></Link>
-                            </div> */}
                         </div>
                         <h1 className='border border-t-0 border-x-0 border-b-[#E0EAFF]'>Get In <span>Touch</span></h1>
                         <div className='flex justify-between flex-col lg:flex-row items-start gap-8'>
@@ -51,8 +38,8 @@ const Footer = () => {
                 </div>
                 <div className='flex items-center justify-between gap-4 flex-wrap flex-col-reverse text-center lg:flex-row lg:text-left lg:flex-nowrap'>
                     <p className='text-sm text-[#677187]'>Copyright Sanit Invention Private Limited. All Rights Reserved.</p>
-                    <Link href="/" className='footer-link'><p className='underline'>Terms & Conditions</p></Link>
-                    <Link href="/" className='footer-link'><p className='underline'>Privacy Policy</p></Link>
+                    {/* <Link href="/" className='footer-link'><p className='underline'>Terms & Conditions</p></Link>
+                    <Link href="/" className='footer-link'><p className='underline'>Privacy Policy</p></Link> */}
                 </div>
             </div>
         </footer>
